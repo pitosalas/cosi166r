@@ -1,12 +1,34 @@
-<h3>
-  <%= citem.title %> 
-  <% if citem.lecture? %>
-	<span class="h6">
-		(<%= citem.lecture_date_s %>, <%= citem.lecture_number_s.to_s %>)
-			<%if citem.section != "root" %>
-				<%= link_to_prev toc, item %> <%=link_to_next toc, item %> 
-			<% end %>
-	</span>
-<% end %>
-<div class="h6"><%= citem.desc %></div>
-</h3>
+<div class="row">
+  <div class="col-12">
+    <h1>
+      <%= citem.title %>
+      <span style="font-size: 1rem;">
+        <% if citem.lecture? %>
+          (<%= citem.lecture_date_s %>, lect <%= citem.lecture_number.to_s %>)
+        <% end %>
+        <span class="float-right">
+          <% if citem.lecture? && citem.section != "root" %>
+            | <%= link_to_prev(toc, item) %> |
+          <% end %>
+          <% if citem.lecture? && citem.section != "root" %>
+            <%=link_to_next(toc, item) %> |
+          <% end %>
+          <% if citem.slides %>
+            <%= link_to_slides %> |
+          <% end %>
+          <% if citem.hwref %>
+            <%= link_to_homework citem %> |
+          <% end %>
+        </span>
+      </span>
+    </h1>
+  </div>
+</div>
+<div class="subheader">
+  <% if citem.desc %>
+    <%= citem.desc %>
+  <% end %>
+  <% if citem.due %>
+    Due date: <%= citem.due %>
+  <% end %>
+</div>

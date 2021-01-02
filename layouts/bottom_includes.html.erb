@@ -1,16 +1,39 @@
-
 <!-- Latest compiled and minified JavaScript -->
-    <!-- Optional JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <script src="/bootstrap/js/custom.js"></script>
-<script src="/tipuesearch/tipuesearch_content.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.js"></script>
 
+<!-- End JS, Popper.js, and jQuery -->
+
+<!-- Support for popups require this line -->
 <script>
-$(document).ready(function() {
-     $('#tipue_search_input').tipuesearch({
-       'show': 20,
-       'contextBuffer': 100
-     });
-});
+$("[data-toggle=tooltip").tooltip();
+</script>
+<!-- End Support for popups require this line -->
+
+<!-- For docsearch search engine  -->
+<script>
+  docsearch({
+    // Your apiKey and indexName will be given to you once
+    // we create your config
+    apiKey: '<%= SEARCH_CONFIG[:api_key] %>',
+    indexName: '<%= SEARCH_CONFIG[:index_name] %>',
+    <% if SEARCH_CONFIG[:app_id] != '' %>
+      appId: '<%= SEARCH_CONFIG[:app_id] %>',
+    <% end %>
+    algoliaOptions: {
+        hitsPerPage: 30
+    },
+    // Replace inputSelector with a CSS selector
+    // matching your search input
+    inputSelector: '#tipue_search_input',
+    // Set debug to true to inspect the dropdown
+    debug: <%= SEARCH_CONFIG[:debug] %>,
+  });
 </script>

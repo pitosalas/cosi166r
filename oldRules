@@ -8,16 +8,12 @@ compile '/bootstrap/**/*' do
   nil
 end
 
-compile '/extras/**/*' do
-  nil
-end
-
-compile '/content/topics/robotcode/**/*' do
-  nil
-end
-
 compile '/content/scripts/**/*' do
   nil
+end
+
+compile "/content/tipuesearch/tipuesearch_content.js.erb" do
+  filter :erb
 end
 
 compile '/**/*.ical.erb' do
@@ -27,18 +23,8 @@ end
 compile '/**/*.{md,ical}.erb' do
   if item[:status] != "hidden"
     filter :erb
-    filter :kramdown, coderay_line_numbers: nil
+    filter :kramdown, enable_coderay: true, coderay_line_numbers: nil
     layout '/course.*'
-  else
-    nil
-  end
-end
-
-compile '/**/*.md.erb', rep: :slides do
-  if item[:status] != "hidden"
-    filter :erb
-    layout '/slides.*'
-    write item.identifier.without_ext + '/slides.html'
   else
     nil
   end
@@ -54,13 +40,22 @@ route '/bootstrap/**/*' do
   @item.identifier.to_s
 end
 
+route '/tipuesearch/**/*' do
+  @item.identifier.to_s
+end
+
+route "/content/tipuesearch/tipuesearch_content.*" do
+  '/tipuesearch/tipuesearch_content.js'
+end
+
+# Output the search page
+route '/tipuesearch/search.md.erb' do
+  '/tipuesearch/search/index.html'
+end
+
 # Select which .md.erb becomes the home page of the site
 route HOME_PAGE do
   '/index.html'
-end
-
-route HOME_PAGE, rep: :slides do
-  '/slides.html'
 end
 
 route '/**/*' do
@@ -68,6 +63,8 @@ route '/**/*' do
     raise RuntimeError, "Missing required extension: \".#{item.identifier}\""
   elsif item.binary?
     item.identifier.to_s
+  elsif item.identifier == "/searchtipuesearch_content/"
+    item.identifier.chop + '.' + item[:extension] rescue fail "in route * in Rules"
   elsif item[:status] == "hidden"
     nil
   elsif item[:type] == "subsection"
