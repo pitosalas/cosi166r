@@ -1,0 +1,58 @@
+---
+title: Test Driven Development
+desc: Diving deeper into Testing and Quality
+homework: 1) Read several articles
+cat: testing
+---
+<%= homework_hdr %>
+
+1. **Read** [The F35s terible bug list](http://www.defenseone.com/technology/2016/02/f-35s-terrifying-bug-list/125638/?oref=DefenseOneTCO) to see the real world impact that bugs have. Also that Fighter jets are really computers with wings on them! Also read [There's more to Ruby Debugging than puts](https://engineering.shopify.com/17489080-theres-more-to-ruby-debugging-than-puts?utm_medium=email&utm_source=rubyweekly). Lots of very practical tips and ideas about debugging, as well as some really useful Ruby tricks.
+1. <%= zipbadge %> **TDD**: Learn all about Test Driven Development. Please look over **all** the linked resources: [RailsGirls Guide to Test Driven Development](http://guides.railsgirls.com/test-driven-development), [Rails Guide for Testing](https://edgeguides.rubyonrails.org/testing.html), Read [Minitest Quick Reference](http://mattsears.com/articles/2011/12/10/minitest-quick-reference), [MiniTest::Spec tutorial](http://www.rubyinside.com/a-minitestspec-tutorial-elegant-spec-style-testing-that-comes-with-ruby-5354.html). **Assignment**: Do the following assignment: <%= link_to_topic :hw_tdd %>. <%= deliverable "Zip up the directory and submit it in Latte." %>
+1. <%= partbadge %> Our first AMA ("Ask Me Anything") with [Glenn McDonald of Spotify](https://www.linkedin.com/in/glenn-mcdonald-ab3b36/) and post two questions that you would want to ask him during the interview here: [Glenn McDonald AMA Questions](https://moodle2.brandeis.edu/mod/forum/discuss.php?d=348520)
+
+##### Ongoing Work
+* **Teams**: Continue working on your projects!
+
+##### Interesting, optional reading
+
+* You may know that I am a space travel geek, especially about the early exploration in the 60's and 70's. If you are too, you will find this quite interesting: [Software Glitch in the Apollo Lunar Mission (3 minutes)](https://spectrum.ieee.org/video/aerospace/space-flight/don-eyles-space-hacker)
+* Test doubles, mocks, and similar concepts are a powerful abstraction for independently testing complex subsystems. Of course we're using minitest, but rspec is a popular alternative test framework. Bottom line they are both quite similar to each other. [Test Doubles in Theory, in Minitest and Rspec](http://ieftimov.com/test-doubles-theory-minitest-rspec). 
+* Good advanced testing concepts: [Test Doubles – Fakes, Mocks and Stubs](http://pragmatists.pl/blog/2017/03/test-doubles-fakes-mocks-or-stubs/?__s=sp8sgb9wzgpq5zssprse)
+* Video talk by the original inventor of Rails where he argues strongly (the only way he knows how to argue) against TDD. This video: [RailsConf 2014 Keynote](http://youtu.be/9LfmrkyP81M), from last year caused untold controversy. 
+
+
+#### Today
+* 30 Minutes "ASK ME ANYTHING" with Glenn McDonald.
+* Look at <%= link_to_topic :poro_service_objects %>
+
+##### Discussion on the homework
+
+* What Did you really do? What is the key to it?
+* How did it feel to program in this way? Was it easier, harder, different?
+* Conventions: file names, separating the tests from the code (why?)
+* What do "I" do with testing in "real life"?
+* Whats the difference between Rspec and Minitest?
+
+##### Donald Knuth quote
+* Interesting from an old archival letter between Knuth and Emde Boas.
+* Knuth very famous, Emde Boas, not so much.
+* If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
+
+<a href="https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf"><img src="/content/topics/images/bewarebugs.jpg" class="img-thumbnail" style="height:300px;"/></a>
+
+#### Testing and TDD Intro
+<%= include_topic :testing_intro %>
+
+##### Some examples
+* Let's take a look at: [Dumb Factorial Implementation](https://github.com/pitosalas/tdd_demo/blob/master/tdd_demo.rb)
+* What other tests can we do to test this Factorial class?
+* There are a huge variety of tools and techniques to avoid repetitious coding
+* We will be using the built-in unit testing framework called "minitest"
+* For this course focus ONLY on unit testing
+
+##### Testing a full ruby class
+* Let's take a look at <%= link_to_topic :money_class_test_example %> or [PlayingCard Class](https://github.com/pitosalas/tdd_demo/blob/master/playingcard.rb)
+* Break into groups and come up with a list of tests that you would write
+
+#### Look at next class
+* Look at homework <%= link_to_next_lecture %>

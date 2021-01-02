@@ -1,0 +1,89 @@
+---
+title: Real World Architecture
+desc: A discussion of how the core components get built out into a production system
+homework: 1) Self knowledge reflection
+cat: Advanced
+---
+<%= homework_hdr %>
+<%= include_topic :hw_166_selfknowledge_reflection %>
+
+##### Ongoing Work
+* **Teams**: Continue working on your projects!
+
+#### Basic Architecture
+* User
+  * port 80
+  * port 443
+* Internet
+* Server (VM)
+  * Port 80
+  * Port 443
+
+#### CDN
+* A "proxy"
+* User
+* Internet
+* CDN (Content Delivery Network)
+  * Cloudflare
+  * Secure connections
+  * Img, js, CSS
+* Server (VM)
+
+#### VM Itself
+* Port 443
+* Requests come from the Internet
+* WWW Server
+  * Apache
+  * NGINX
+* App Server (Rails)
+  * Passenger
+  * Unicorn
+  * Etc
+* Database Server
+  * Mysql
+  * Postgres
+  * Etc
+* Cache Server
+  * Fragment Caching
+  * Other Caching
+  * Transient
+  * e.g. Redis, MemcacheD etc
+* Configuration, e.g.
+  * 2 virtual CPUs
+  * 4gig RAM
+  * 40gig SSD
+* Advantages and Disadvantages
+  * Reasonably cheap
+  * Predictable, doesnt go up and down
+  * Digital Ocean, AWS, etc.
+  * Scaling UP: add memory, CPUs, Disk Space
+  * Single point of failure
+  * Locks you in to a bad architecture
+  * Hard to go to a scaling out
+* Scaling Out Obstacle
+  * Storing uploaded files on disk
+  * All your code assumes files are local
+  * If you have a second server, this faiuls
+
+#### Scaling Approach
+* Architecture has multiple servers
+* "Virtual Private Cloud"
+* LB: Load Ballencer
+  * Checks for liveness of target servers
+  * Sends requests to underlying servers
+  * Round robin or more fancy algorithms
+* AutoScale Server
+  * Decides when additional vms need to be added
+* Set of VMs
+  * Auto provisioning
+  * Auto Scale will detect when a new VM is needed or whenn one fewer is needed
+  * App servers (e.g. Rails)
+  * Databaser servers (Postgres, MySql, etc)
+  * Full Text Search Indexes (e.g. Elastic Search)
+  * Caching Sercvers (e.g. Redis)
+  * File service (e.g. S3)
+
+
+
+
+

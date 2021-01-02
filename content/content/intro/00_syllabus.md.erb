@@ -1,0 +1,46 @@
+---
+title: Syllabus
+desc: Everything you need to know before signing up for Capstone
+---
+<% tbh = TableHelper.new(:normal) %>
+<% tbh.headers("", "") %>
+<% tbh.row("Instructors", "Pito Salas") %>
+<% tbh.row("Class Times", "Tuesday and Thursday 3:30PM - 4:50PM, Friday 2:00pm-4:50pm (recitation)") %>
+<% tbh.row("Location", "GZang 124") %>
+<% tbh.row("Office Hours", "Go to this link to reserve an appointment: https://calendly.com/pitosalas/ftf") %>
+<% tbh.row("Prerequisites", "COSI 12b and COSI 21a") %>
+<% tbh.row("Homework", "Homework assignments for every class; Major Software Engineering project; Team assignments. Success in this 6 credit hour course is based on the expectation that students will spend a minimum of 12 hours of study time per week in preparation for class (readings, papers, discussion sections, preparation for exams, etc.).  ") %>
+<% tbh.row("Grading", "0-100 based, weighted by type of submissions. No tests.") %>
+<% tbh.row("Email contact: ", "pitosalas@brandeis.edu") %>
+<%= tbh.render %>
+
+
+#### Course Description
+
+You've programmed, maybe a lot. But have you ever asked yourself how you would actually build a complete product, from soup to nuts? Surely you have had ideas for products: Using your scarce free time to do fun things? Finding out where your friends are hanging out right now? Or perhaps a business selling your own custom made jewelry?
+
+Welcome to Cosi166b! This course aims to show you that you can build such a product from scratch, working on a team from zero to launch in one semester.
+
+#### Course Themes
+We cover a lot of ground in this course, and quite rapidly. Here are the central themes:
+
+1. Practice working with a team of other software developers. How do you divide up the work, keep momentum going, make sure you finish, deal with conflict? All these skills and others will contribute directly to your possible future as a software engineer.
+1. System architecure and design. Given your vision for a product, how do you divide it up into layers or levels or services, what does the database do, how do you communicate to your mobile phone, how do you handle logins? These and many many more issues have to be confronted and overcome.
+1. Software engineering. This might turn out to be the largest program you've written so far. How do you organize the code, deal with source code management, testing and debugging, finding and choosing the right tools and libraries? Real world software engineers deal with and solve these questions every day and so will you!
+1. Ruby and Rails. You will become expert in one of the most popular languages and frameworks for building web based applications. This is one of several and as a software engineer you will know that the sand is constantly shifting, but for today, it's a good choice. With this experience you will be equipped to learn any other similar framework when and if that becomes necessary in the future!
+
+##### Pre-requisites or permission
+Cosi12b and Cosi21a are required for admission to this course.
+
+#### Additional information
+
+<%= include_topic :attendance_policy %>
+<%= include_topic :experiential %>
+<%= include_topic :syllabus_change_policy %>
+<%= include_topic :syllabus_add_drop_policy %>
+
+#### Further detail
+* Look here for the details of the <%= link_to_section :background, :required_preparation %>
+* How grading works: <%= link_to_background :cs166_grading %>
+* Detailed learning objectives: <%= link_to_topic :goals_cosi166 %>
+* Complete list of lectures: <%= link_to_intro :coursetoc %>
