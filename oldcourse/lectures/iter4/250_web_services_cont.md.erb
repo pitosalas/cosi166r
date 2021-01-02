@@ -1,0 +1,59 @@
+---
+title: APIs, REST, PUSH
+desc: Web Services, how they work, and how to use them
+homework: 1) Experiment with REST clients and servers. Report your experiences; 2) Read about actioncable
+cat: advanced
+---
+<%= homework_hdr %>
+
+1. <%= pdfbadge %> **Read and do**: Articles and do steps below:
+    * Read this article: [RESTFUl Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
+    * Look over this tutorial: [Build a Restful JSON APil with Rails 5](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one). I haven't tested it but it should still wor
+    * Download and install this [WebService Demo Code](https://github.com/pitosalas/webservicedemo) to your computer. Look at all the examples and get them to work. Understand what they are doing.
+    * Download and install a REST Client app. There are many to choose from. I use [Insomnia](https://insomnia.rest) Others are [rest-client](https://code.google.com/p/rest-client/) or [Chrome Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/)
+    * Familiarize yourself with one or two real Web Services (also called Web APIs or APIs). Here are some interesting starting points:
+      1. APIs of cooking recipes: [Yummly](https://developer.yummly.com/documentation.html)
+      1. [Covid Data from NYT](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)
+      1. [Reddit API](https://github.com/reddit/reddit/wiki/API)
+      1. [US Census Bureau](http://www.census.gov/developers/)
+      1. Directory of other Web Services: [Programmable Web](http://www.programmableweb.com)
+      1. New: [A curated list of 100 cool web services](https://medium.com/better-programming/a-curated-list-of-100-cool-and-fun-public-apis-to-inspire-your-next-project-7600ce3e9b3)
+    * Most web services (APIs) need an API-key of some kind (free). Get one
+    * Experiment with the REST client and one of the Web services described above
+    * Using the REST client app above: try some calls and get them to work
+    * <%= deliverable "A post describing your experience. What api you tried and what you learned. And describing one specific way in which your product could use a Web Service API" %>
+1. <%= pdfbadge %> <%= partbadge %> **Read**: Read and understand ActionCable. This is the offical [Rails 6 Guide to ActionCable](https://edgeguides.rubyonrails.org/action_cable_overview.html). And here's a [tutorial](http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial/?utm_source=rubyweekly&utm_medium=email). Answer these warmup questions please:
+    1. What is a way that you could use ActionCable in your product?
+    1. What problem does ActionCable solve, and how does it relate if at all to WebSockets?
+    1. Please comment on points of confusion or enlightenment with ActionCable.
+    1. <%= deliverable "Your responses as a pdf" %>
+1. <%= partbadge %> Our third AMA ("Ask Me Anything") is with [Ed McNierney](https://www.linkedin.com/in/edmcnierney/). Research everything you can find about Ed, his interests, his career, his views, and post two questions that you would want to ask him during the interview here: [Ed McNierney AMA Questions](https://moodle2.brandeis.edu/mod/forum/discuss.php?d=353733)
+
+
+##### Ongoing Work
+* **Teams**: Continue working on your projects!
+
+##### Interesting, optional reading
+* [Build a JSON API with Rails 5 ](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one)
+* [Websockets - A conceptual deep dive](https://www.ably.io/concepts/websockets)
+* [ActionCable, the missing guide](https://blog.codeship.com/actioncable-the-missing-guide/)
+* [Real Time Rails, WebSockets](https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable)
+
+#### Web Services
+* Fortune API deployed on Heroku
+  * Visit the fortune_api: [Fortune API on Heroku](https://rpsfortune.herokuapp.com/fortune/random)
+  * Let's take a look at the code [Restapidemo](https://github.com/pitosalas/restapidemo)
+
+##### Accessing a web service
+* Accessing and testing out a Web Api before using it
+* Writing throw away code ("spikes")
+* Use a gem or build a gem: isolation
+* Don't be scared: How to look inside a gem at its code (see gem `gem-open`)
+* If the gem doesn't do what you need, look for another one!
+* Data conversions are often a challenge
+* Discuss the exmples in ruby [Web Service Demo Code](https://github.com/pitosalas/public_samples/tree/master/ruby/webservicedemo)
+
+<%= include_topic :push_websockets %>
+
+#### Look at next class
+* Look at homework <%= link_to_next_lecture %>

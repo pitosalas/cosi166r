@@ -1,0 +1,79 @@
+---
+title: Rails controllers
+desc: We jump deep into Rails controllers and MVC.
+homework: 1) Read the Rails Doctrine; 2) Read and DO RORT Chapter 6;
+cat: rails
+---
+<%= homework_hdr %>
+
+1. **Read:** [The Rails Doctrine](http://rubyonrails.org/doctrine/) and consider whether it's a good set of principles, how much you agree with them. We will discuss this in class.
+2. <%= partbadge %> <%= pdfbadge %> **RORT:** Read [Ruby on Rails Tutorial](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/modeling_users) Chapter 6, "Modeling Users". Another major step forward, and yes, this is a meaty chapter again. You will learn A LOT! How to create a User model (you kind of know that alreaedy) but more than that, we will learn about ActiveRecord validations and most importantly start thinking about authentication! *As the book suggests, don't use a canned authentication gem (yet) because they are often more work than work savers.*
+
+    As usual I really encourage and ask you to go through the code samples and actually type them in. You will see that it really helps your understanding and will assure your success in this course! Use your resources: the TAs, the class mailing list, stack overflow, google and push through to success! When you are done, go to Latte and answer these warmup questions:
+
+    * This one is tricky: how come there's no password field in the database, while there is a validation of a password attribute on the User model. Precisely how does the validataion work? Let's have a careful answer here, because it's the only warmup question I am asking for!
+    * What is a regular expression and what is it used for?
+    * What is a database index and what is it used for?
+    * Are there one or two things you are still confused by? If not, what one or two things were the most memorable about your reading? <%= deliverable "Submit your asnwers as a pdf to latte.." %>
+
+##### Ongoing work
+* **Project teams:** Although there are no specific deliverables, you should be following <%= link_to_section :intro, :project_roadmap %>. Not just during lab and during your meetings, but on your own. Remember with a team of four (or 3 or 5) students, that's a lot of horsepower, and so we have high expectations. The sooner you kick into gear the better!
+* **Rails PA 3** Working on <%= link_to_topic :pa_rails_3 %>. You can see the assigment and due dates here: <%= link_to_topic  :pa_rails_guide %>
+
+##### Interesting, optional reading
+* [URLs are UI](https://www.hanselman.com/blog/URLsAreUI.aspx?utm_source=hackernewsletter&utm_medium=email&utm_term=fav)
+* [Rails Routing Guide](http://guides.rubyonrails.org/routing.html)
+* [RESTful Web Services: The Basics](http://www.ibm.com/developerworks/webservices/library/ws-restful/)
+
+#### Today
+* What is the "rails doctrine"? 
+* Take a picture for attendance
+* Do Post-it-note exercise
+    * Think about this course and the way I run it -- Not what you "like" or "don't like" but what you think is valuable for your future and what you think is less so
+    * Please write down: What do you think is valuable; What do you want to see more of; What would you like to see less of
+
+##### Project Status Discussion
+* Where should we be right now with the projects?
+* You should be meeting face to face at least once a week
+* You should have a working Rails application with a working (but not 100% complete schema), with models, controlers and views, deployed to Heroku with seed data and working.
+* Lets look at the schedule:
+    1. March 6-11
+    1. March 12-18
+    1 March 19-25
+    1. March 26-1
+    1. April 2-8 (April 9-15 Are Break Week)
+    1. April 16-22 
+    1. April 23-29
+    1. April 30 - May 10 (Study period)
+* May 11 (Final Presentations)
+* You should distribute the work so each teammate has a separate piece of work to do
+* Don't fuss right now with subtle algorithms, focus on the whole system
+
+<%= include_topic :url_rails %>
+
+##### Job of the controller
+* Recall, the URL is parsed by the router, which locates and calls the right controller
+* Breaking it down:
+    1. Router parses URL
+    1. Determines the controller (error: Can't find Controller's ruby file in app/controllers/)
+    1. Determines the action insider the controller (error: Can't find a method for the action)
+    1. Calls the action method, with the parameters corresponding to the 'rest' of the url
+    1. When action completes, a view of the same name is located (error: Can't find Views html.erb file in the `views/<controllername>/` directory)
+    1. View's 'erb' is expanded and returned, through controller, router, web server, back to the user.
+
+#### Resources in Rails
+* Automatic wiring of plumbing between urls, routing, models, and controllers
+* Takes advantage of standardized patterns
+    * Nesting model in the URLs
+    * CRUD operations as actions
+    * Path naming (path_to_user instead of "http://www.mysite.com/user/3")
+    * Controller naming
+* Huge time saver and bug saver!
+
+#### Controller Actions: Review
+* Who calls the controller action?
+* What parameters are supplied automatically by the controller action?
+* Why does it take two separate actions to implement "create"?
+
+#### Look at next class
+* Look at homework <%= link_to_next_lecture %>
