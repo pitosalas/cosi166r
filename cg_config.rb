@@ -12,7 +12,7 @@ AUTHOR_EMAIL = 'pitosalas@brandeis.edu'
 COPYRIGHT_STRING = "Copyright (2013-#{Time.now.year}) #{AUTHOR_NAME}, #{AUTHOR_EMAIL}"
 
 # Bucket Deployment of the course
-AWS_BUCKET = "cosi166"
+AWS_BUCKET = "cosi166r"
 
 # COURSE
 COURSE_SHORT_NAME = 'Cosi166'
@@ -47,9 +47,9 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
 # hidden: true.
 SECTION_CONFIG = [
   SectionDef.new("Intro", "intro", type: :section, collapsed: false, bullet: :star),
+  SectionDef.new("Homework", "homework", hidden: false, type: :section),
   SectionDef.new("Lectures", "lectures",
                  type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
-  SectionDef.new("Homework", "homework", hidden: true, type: :section),
   SectionDef.new("Course Resources", "background", type: :section, collapsed: false, bullet: :star),
   SectionDef.new("Topics", "topics", hidden: true, type: :section),
   SectionDef.new("Extras", "extras", hidden: true, type: :section)
