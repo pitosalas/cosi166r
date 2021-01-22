@@ -1,23 +1,19 @@
 ---
 title: Week 9
-lectref: forms_views_2 ajaxforms
-due: 4/05/2020 at 11:50pm
+lectref: css_bootstrap forms_views
+due: 3/29/2020 at 11:50pm
 ---
 
-<%= homework_hdr %>
-
-1. <%= partbadge %> <%= pdfbadge %> **RORT:** Read [Ruby on Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) Chapter 8, "Basic Login". This chapter covers routes, controllers and actions, reviewing what was demoed in class last week. You will encounter the vaunted `form_for` again. Notice that `form_for` and `form_tag` are still supported but as of Rails 5.1, there's a new `form_with` which will replace both eventually. And you will see for the first time in this tutorial, the routes "resources" line. You will finally deploy what you have so far onto Heroku.
+## 1. <%= partbadge %> <%= pdfbadge %> **RORT:** Read [Ruby on Rails Tutorial (\[RORT\])](https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/sign_up) Chapter 7, "Sign Up". This chapter covers routes, controllers and actions, reviewing what was demoed in class last week. You will encounter the vaunted `form_with` again. And you will for the first time you will see the routes "resources" line. You will finally deploy what you have so far onto heroku.
 
     As usual I really encourage and ask you to go through the code samples and actually type them in. You will see that it really helps your understanding and will assure your success in this course! Use your resources: the TAs, the class mailing list, stack overflow, google and push through to success! When you are done, go to Latte and answer these warmup questions:
 
-    * What does it mean when we say that the HTTP protocol is "stateless." Why does this pose a challenge for processing authentication?
-    * The `log_in` method has this line: `session[:user_id] = user.id`. Explain it.
-    * How is a logout achieved?
-    * Are there one or two things you are still confused by? If not, what one or two things were the most memorable about your reading? <%= deliverable "Submit your asnwers as a pdf to latte." %>
-1. **Read and code**: Read this Guide and do some experiments to get more of a feel for Ajax: [Working with JavaScript in Rails](https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html)
-
-{:start="2"}
-<%= include_topic :hw_ajax_question %>
-
-{:start="3"}
-1. <%= partbadge %> <%= teambadge %> <%= pdfbadge %> **Weekly Team Update:** Submit your <%= link_to_topic :weekly_progress_updates %> according to the instructions. <%= team_deliverable "Weekly Progress Update" %>
+    * What things do the different rails environments  (develop, test, production) affect? I would like to see at least two beyond the choice of database. And an explanation of each of the two, not just a parphrase of what's in the book!
+    * What are all the effects that you can find that the "resources" line does in the routes.rb file?
+    * What's a gravatar? Are you going to use them in your product? How does it work?
+    * On figure 7.18 (and many others) you see "the form contains 3 errors" and a list of erorrs. Exactly what lines of the view are causing that text to show up on the form? Can you explain how that works?
+    * Are there one or two things you are still confused by? If not, what one or two things were the most memorable about your reading? <%= deliverable "Submit your asnwers as a pdf to latte.." %>
+## 2. **Watch** [Single Table Ineritance](https://www.driftingruby.com/episodes/single-table-inheritance). This is a very cool technique that allows you to organize a class and subclasses and store them in a relational table. It applies to Rails but is a general technique in Databases. No deliverable
+## 3. **Read** [Working with JavaScript in Rails](http://guides.rubyonrails.org/working_with_javascript_in_rails.html). No deliverable.
+## 4. <%= include_topic :hw_stackoverflow %>
+## 5. <%= partbadge %> <%= teambadge %> <%= pdfbadge %> **Weekly Team Update:** Submit your <%= link_to_topic :weekly_progress_updates %> according to the instructions. <%= team_deliverable "Weekly Progress Update" %>

@@ -1,15 +1,35 @@
 ---
 title: Week 12
-lectref: mobile mobile_2
-due: 4/26/2020 at 11:50pm
+lectref: rest_web_services web_services_cont
+due: 4/19/2020 at 11:50pm
 ---
 
-<%= homework_hdr %>
+## 1. <%= partbadge %> <%= pdfbadge %> **RORT:** Read [Ruby on Rails Tutorial (\[RORT\])](https://www.railstutorial.org/book/beginning#cha-beginning) Chapter 10, "Updating, Showing and Deleting Users". **YES: We skipped a chapter.** In this chapter we continue developing the big example, by adding logic to update users. Now we gradually move from authentication to authorization, which in a way is much simpler. As usual I really encourage and ask you to go through the code samples and actually type them in. You will see that it really helps your understanding and will assure your success in this course! Use your resources: the TAs, the class mailing list, stack overflow, google and push through to success! When you are done, go to Latte and answer these warmup questions:
+    * What is a before_action? Try to be precise (but the answer can be expressed in two sentences.)
+    * What does this css selector do: `.users { ...`
+    * What are "strong parameters" and what is their purpose? What security risk are they meant to combat?
+    * Are there one or two things you are still confused by? Code that you've written which is pure magic and meaningless to you? If not, what one or two things were the most memorable about your reading? <%= deliverable "The usual drill: please respond to the questions and post as a pdf to Latte before 10:00am" %>
 
-1. <%= partbadge %> Our fourth AMA ("Ask Me Anything") is with [Allison Perkel](https://www.linkedin.com/in/allisonperkel/). Research everything you can find about Allison, her interests, her career, her views, and post two questions that you would want to ask her during the interview here: [Allison Perkell AMA Questions](https://moodle2.brandeis.edu/mod/forum/discuss.php?d=355135)
-
-1. <%= teambadge %> **Projects and Demos**: 100% time on projects and final deliverables.
-
-<%= include_topic :hw_self_peer_assess_v3 %>
-{:start="2"}
-1. <%= partbadge %> <%= teambadge %> <%= pdfbadge %> **Weekly Team Update:** Submit your <%= link_to_topic :weekly_progress_updates %> according to the instructions. <%= team_deliverable "Weekly Progress Update" %>
+## 2. <%= partbadge %> <%= teambadge %> <%= pdfbadge %> **Weekly Team Update:** Submit your <%= link_to_topic :weekly_progress_updates %> according to the instructions. <%= team_deliverable "Weekly Progress Update" %>
+## 3. <%= pdfbadge %> **Read and do**: Articles and do steps below:
+    * Read this article: [RESTFUl Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
+    * Look over this tutorial: [Build a Restful JSON APil with Rails 5](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one). I haven't tested it but it should still wor
+    * Download and install this [WebService Demo Code](https://github.com/pitosalas/webservicedemo) to your computer. Look at all the examples and get them to work. Understand what they are doing.
+    * Download and install a REST Client app. There are many to choose from. I use [Insomnia](https://insomnia.rest) Others are [rest-client](https://code.google.com/p/rest-client/) or [Chrome Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/)
+    * Familiarize yourself with one or two real Web Services (also called Web APIs or APIs). Here are some interesting starting points:
+      1. APIs of cooking recipes: [Yummly](https://developer.yummly.com/documentation.html)
+      1. [Covid Data from NYT](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)
+      1. [Reddit API](https://github.com/reddit/reddit/wiki/API)
+      1. [US Census Bureau](http://www.census.gov/developers/)
+      1. Directory of other Web Services: [Programmable Web](http://www.programmableweb.com)
+      1. New: [A curated list of 100 cool web services](https://medium.com/better-programming/a-curated-list-of-100-cool-and-fun-public-apis-to-inspire-your-next-project-7600ce3e9b3)
+    * Most web services (APIs) need an API-key of some kind (free). Get one
+    * Experiment with the REST client and one of the Web services described above
+    * Using the REST client app above: try some calls and get them to work
+    * <%= deliverable "A post describing your experience. What api you tried and what you learned. And describing one specific way in which your product could use a Web Service API" %>
+## 4. <%= pdfbadge %> <%= partbadge %> **Read**: Read and understand ActionCable. This is the offical [Rails 6 Guide to ActionCable](https://edgeguides.rubyonrails.org/action_cable_overview.html). And here's a [tutorial](http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial/?utm_source=rubyweekly&utm_medium=email). Answer these warmup questions please:
+    1. What is a way that you could use ActionCable in your product?
+    1. What problem does ActionCable solve, and how does it relate if at all to WebSockets?
+    1. Please comment on points of confusion or enlightenment with ActionCable.
+    1. <%= deliverable "Your responses as a pdf" %>
+## 5. <%= partbadge %> Our third AMA ("Ask Me Anything") is with [Ed McNierney](https://www.linkedin.com/in/edmcnierney/). Research everything you can find about Ed, his interests, his career, his views, and post two questions that you would want to ask him during the interview here: [Ed McNierney AMA Questions](https://moodle2.brandeis.edu/mod/forum/discuss.php?d=353733)
