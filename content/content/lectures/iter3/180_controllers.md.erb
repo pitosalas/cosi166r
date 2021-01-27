@@ -5,18 +5,18 @@ hwref: week8
 cat: rails
 ---
 
-##### Ongoing work
+#### Ongoing work
 * **Project teams:** Although there are no specific deliverables, you should be following <%= link_to_section :intro, :project_roadmap %>. Not just during lab and during your meetings, but on your own. Remember with a team of four (or 3 or 5) students, that's a lot of horsepower, and so we have high expectations. The sooner you kick into gear the better!
 * **Rails PA 3** Working on <%= link_to_topic :pa_rails_3 %>. You can see the assigment and due dates here: <%= link_to_topic  :pa_rails_guide %>
 
-#### Today
+### Today
 * What is the "rails doctrine"?
 * Take a picture for attendance
 * Do Post-it-note exercise
     * Think about this course and the way I run it -- Not what you "like" or "don't like" but what you think is valuable for your future and what you think is less so
     * Please write down: What do you think is valuable; What do you want to see more of; What would you like to see less of
 
-##### Project Status Discussion
+#### Project Status Discussion
 * Where should we be right now with the projects?
 * You should be meeting face to face at least once a week
 * You should have a working Rails application with a working (but not 100% complete schema), with models, controlers and views, deployed to Heroku with seed data and working.
@@ -35,7 +35,7 @@ cat: rails
 
 <%= include_topic :url_rails %>
 
-##### Job of the controller
+#### Job of the controller
 * Recall, the URL is parsed by the router, which locates and calls the right controller
 * Breaking it down:
     1. Router parses URL
@@ -45,7 +45,7 @@ cat: rails
     1. When action completes, a view of the same name is located (error: Can't find Views html.erb file in the `views/<controllername>/` directory)
     1. View's 'erb' is expanded and returned, through controller, router, web server, back to the user.
 
-#### Resources in Rails
+### Resources in Rails
 * Automatic wiring of plumbing between urls, routing, models, and controllers
 * Takes advantage of standardized patterns
     * Nesting model in the URLs
@@ -54,10 +54,10 @@ cat: rails
     * Controller naming
 * Huge time saver and bug saver!
 
-#### Controller Actions: Review
+### Controller Actions: Review
 * Who calls the controller action?
 * What parameters are supplied automatically by the controller action?
 * Why does it take two separate actions to implement "create"?
 
-#### Look at next class
+### Look at next class
 * Look at homework <%= link_to_next_lecture %>
