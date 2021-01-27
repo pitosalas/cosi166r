@@ -5,41 +5,41 @@ hwref: week9
 cat: rails
 ---
 
-##### Ongoing Work
+#### Ongoing Work
 1. **Teams**: Continue working on your projects!
 
-#### Today
+### Today
 * We're all on Zoom! Where are you in the world?
 * Is this time slot workable for you or not? Do you have connectivity? Lecture? Lab?
 * For homeworks that are we due or are due on 3/10, 3/12, 3/17 and 3/19 there will be no deadlines
 * How do you want to conduct the course going forward?
 
-#### Review Basics
+### Review Basics
 * Why form handling typically requite 2 HTTP requests, two actions, two views
 * Partial views and rendering
 * Each of the actions in a simple case, e.g. categories_controller
 * Before-action, and setting up of the 'common parameters'
 * "Strong parameters"
 
-##### Forms that come from more than one model
+#### Forms that come from more than one model
 * Look at an example: [Rails52 Forms Demo](https://github.com/pitosalas/rails52_basic_form_demo)
   * URL
   * controller
   * View
 
-##### Review: Context setting
+#### Review: Context setting
 * URLs have 0 to n "parameters"
 * Helpers must include them too
 * Actions must set them up
 * Look at comments_controller
 * Look at form_with in this case
 
-##### Context setting beyond the ids
+#### Context setting beyond the ids
 * Anything you will need in the view, you should set up in the action
 * Look at ItemsController#edit and how it sets up @categories and @category
 * Look at views/items/_form and how it uses those
 
-##### Where should code go?
+#### Where should code go?
 * This can be more confusing than you think
 * Remember: as little code in the view as possible
 * Remember 2: as liitle code in the controller as possible
@@ -50,7 +50,7 @@ cat: rails
   * Legitimately is related to just the 'persisted data'
   * Confusing when you need a method that touches two models
 
-##### Respect your database!
+#### Respect your database!
 * Notice how many calls to the database are needed to display a page
 * Bad sign: O(n) database calls, where n = number of rows displayed
 * More sophisticated ActiveRecord techniques to have one call do more work
