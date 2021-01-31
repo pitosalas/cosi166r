@@ -47,7 +47,7 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
 # hidden: true.
 SECTION_CONFIG = [
   SectionDef.new("Intro", "intro", type: :section, collapsed: false, bullet: :star),
-  SectionDef.new("Homework", "homework", hidden: false, type: :section),
+  SectionDef.new("Homework", "homework", hidden: true, type: :section),
   SectionDef.new("Lectures", "lectures",
                  type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
   SectionDef.new("Course Resources", "background", type: :section, collapsed: false, bullet: :star),
@@ -75,7 +75,8 @@ HOME_PAGE = "/content/intro/00_syllabus.md.erb"
 #   %w[TOC /content/course_toc.md]
 MENULINKS = [%w[lectures /content/intro/10_coursetoc.md/],
             %w[homeworks /content/intro/50_weeks.md/],
-          %w[latte https://moodle2.brandeis.edu/course/view.php?id=21991]].freeze
+            %w[latte https://moodle2.brandeis.edu/course/view.php?id=21991],
+            %w[examples http://pitosalas.github.io/brandeisprojects/]].freeze
 
 # Helpful_box provides a feedback box on the sidebar.
 #
