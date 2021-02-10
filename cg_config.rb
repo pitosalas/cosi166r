@@ -101,7 +101,7 @@ STYLING_CONFIG = {
 # For details, please refer to https://github.com/pitosalas/coursegen/blob/master/README.md.
 SEARCH_CONFIG = {
   api_key: '88d805f90d7c75673db100409098f729',
-  index_name: 'cosi102r',
+  index_name: 'cosi166r',
   # APP_ID is only used if you are running DocSearch on your own.
   app_id: '',
   debug: false
@@ -115,6 +115,8 @@ SLIDES_CONFIG = {
   # Reveal.js specific options
   # See: https://revealjs.com/config/
   revealjs_opts: {
-    transition: 'slide'
+    transition: 'slide',
+    width: 960,
+    height: 900
   }
 }.freeze
