@@ -74,7 +74,7 @@ HOME_PAGE = "/content/intro/00_syllabus.md.erb"
 #   %w[HOME /content/index.md]
 #   %w[TOC /content/course_toc.md]
 MENULINKS = [%w[lectures /content/intro/10_coursetoc.md/],
-            %w[homeworks /content/intro/50_weeks.md/],
+            %w[homeworks /content/intro/40_weeks.md/],
             %w[latte https://moodle2.brandeis.edu/course/view.php?id=21991],
             %w[examples http://pitosalas.github.io/brandeisprojects/]].freeze
 
