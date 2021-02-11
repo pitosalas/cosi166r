@@ -34,7 +34,9 @@
 <body>
 <div class="reveal">
   <div class="slides">
-    <section data-markdown data-separator="^<slide_break></slide_break>" class="scrollable">
+    <section data-markdown data-separator="^<slide_break></slide_break>"  
+             data-separator-notes="<slide_hide></slide_hide>"
+class="scrollable">
       <textarea data-template>
         <%= yield %>
       </textarea>
@@ -53,6 +55,7 @@
     Reveal.initialize({
         minScale: 0.2,
         maxScale: 1.4,
+        width: 800,
 
         markdown: {
             breaks: true
