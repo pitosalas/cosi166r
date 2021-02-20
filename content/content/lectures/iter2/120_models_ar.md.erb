@@ -3,19 +3,36 @@ title: Models and ActiveRecord
 desc: Intro to Models and ActiveRecord
 hwref: week5
 cat: rails
+slides: true
 ---
 
-#### Ongoing Work
+## Welcome (10 minutes)
 
-* **Project teams:** Although there are no specific deliverables, you should be following <%= link_to_section :intro, :term_project %>. Not just during lab and during your meetings, but on your own. Remember with a team of four (or 3 or 5) students, that's a lot of horsepower, and so we have high expectations. The sooner you kick into gear the better!
-* **Rails PA 1** Working on <%= link_to_topic :pa_rails_1 %>. You can see the assigment and due dates here: <%= link_to_topic  :pa_rails_guide %>
+* Checkin questions
 
+<slides_break></slides_break>
+
+### Relational Databases and Object Oriented Software (10 minutes)
+
+* What does an ORM do?
+* "Impedance mismatch"
+* The "ActiveRecord" Object Oriented Pattern
+  * Wraps records *you are working on* inside an object of the Active Record pattern
+  * **Note** every record in the database, just what the code is working on at one time or another
+* The Rails ActiveRecord layer
+* What is the relationship between the underlying DB and the AR objects
+* What is database Migration. What problem does it solve?
+
+<slides_break></slides_break>
+
+## Introduction to ActiveRecord programming (40 minutes)
 
 <%= include_topic :models %>
+
+<slides_break></slides_break>
+
 <%= include_topic :intro_activerecord %>
 
-* <%= link_to_topic :hands_on_tiny_rails_demo %>
-* <%= link_to_topic :hands_on_rails_ar %>
+<slides_break></slides_break>
 
-### Next Class
-* Look at homework <%= link_to_next_lecture %>
+## That's all for today
