@@ -28,3 +28,8 @@ tbh
 Emde
 intro_activerecord
 minitest
+'hirb'
+Hirb
+Gemfile
+ar_db_mechanics
+AR
