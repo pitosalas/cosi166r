@@ -1,15 +1,14 @@
 ---
 title: Rails Controllers
 desc: We jump deep Controllers and MVC.
-hwref: week8
+hwref: week7
 cat: rails
 slides: true
 ---
 
-:slide title Logistics
+:slide_title Logistics
 
 * Checkin Questions
-* Take a picture for attendance
 
 :slide_title Project Status Discussion
 
@@ -20,9 +19,10 @@ slides: true
 * You should distribute the work so each teammate has a separate piece of work to do
 * Don't fuss right now with subtle algorithms, focus on the whole system
 
-<%= include_topic :url_rails %>
+:topic_include :url_rails
 
-$$SLIDE_TITLE  Job of the controller
+:slide_title Job of the controller
+
 * Recall, the URL is parsed by the router, which locates and calls the right controller
 * Breaking it down:
     1. Router parses URL
@@ -32,34 +32,20 @@ $$SLIDE_TITLE  Job of the controller
     1. When action completes, a view of the same name is located (error: Can't find Views html.erb file in the `views/<controllername>/` directory)
     1. View's 'erb' is expanded and returned, through controller, router, web server, back to the user.
 
-$$SLIDE_TITLE Resources in Rails
+:slide_title Resources in Rails
+
 * Automatic wiring of plumbing between urls, routing, models, and controllers
 * Takes advantage of standardized patterns
-    * Nesting model in the URLs
-    * CRUD operations as actions
-    * Path naming (path_to_user instead of "http://www.mysite.com/user/3")
-    * Controller naming
+  * Nesting model in the URLs
+  * CRUD operations as actions
+  * Path naming (path_to_user instead of "http://www.mysite.com/user/3")
+  * Controller naming
 * Huge time saver and bug saver!
 
-$$SLIDE_TITLE My addenda on getting the tricks work:
+:h3 Controller Actions: Review
 
-* YMMV - Sorry about the glitches on Friday!
-* download GitHub with code from ActiveRecord tricks
-* modify Gemfile to remove ruby version line
-* delete .ruby-version file from the directory
-* to see hidden files `ls -la`
-* rails db:seed to generate seed files
-* rails console to get to the prompt for rails commands
-* Status.all to see all the records in the Status table
-* app/comment.rb - delete default scope
-* add gem 'hirb' to Gemfile; bundle
-* in rails console, Hirb.enable
-
-
-### Controller Actions: Review
 * Who calls the controller action?
 * What parameters are supplied automatically by the controller action?
 * Why does it take two separate actions to implement "create"?
 
-### Look at next class
-* Look at homework <%= link_to_next_lecture %>
+:lecture_end
