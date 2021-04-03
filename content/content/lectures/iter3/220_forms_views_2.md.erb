@@ -2,47 +2,50 @@
 title: Deeper into forms and views
 desc: Additional concepts and techniques
 hwref: week10
+slides: true
 cat: rails
 ---
+:h2 Logistics
 
-#### Ongoing Work
-1. **Teams**: Continue working on your projects!
+* Check in questions
+* Watched almost all the videos so far. Thanks for all of your efforts
+  1. Many of the apps so far are basically a login and a discussion list of some kind
+  1. Please make sure you go beyond that. The discussion forum is right out of the book!
+* Matter of historical interest: It was at this lecture that last year we first went remote
 
-### Today
-* We're all on Zoom! Where are you in the world?
-* Is this time slot workable for you or not? Do you have connectivity? Lecture? Lab?
-* For homeworks that are we due or are due on 3/10, 3/12, 3/17 and 3/19 there will be no deadlines
-* How do you want to conduct the course going forward?
+:slide_title Review Basics
 
-### Review Basics
-* Why form handling typically requite 2 HTTP requests, two actions, two views
+* Why form handling typically require 2 HTTP requests, two actions, two views
 * Partial views and rendering
 * Each of the actions in a simple case, e.g. categories_controller
 * Before-action, and setting up of the 'common parameters'
 * "Strong parameters"
 
-#### Forms that come from more than one model
-* Look at an example: [Rails52 Forms Demo](https://github.com/pitosalas/rails52_basic_form_demo)
-  * URL
-  * controller
-  * View
+:slide_title Forms that come from more than one model
+* Look at an example: [FormsDemo](https://github.com/pitosalas/public_samples/tree/master/rails/formsdemo)
+  1. URL
+  1. controller
+  1. View
 
-#### Review: Context setting
+:slide_title Review: Context setting
+
 * URLs have 0 to n "parameters"
 * Helpers must include them too
 * Actions must set them up
 * Look at comments_controller
 * Look at form_with in this case
 
-#### Context setting beyond the ids
+:slide_title Context setting beyond the ids
+
 * Anything you will need in the view, you should set up in the action
 * Look at ItemsController#edit and how it sets up @categories and @category
 * Look at views/items/_form and how it uses those
 
-#### Where should code go?
+:slide_title Where should code go?
+
 * This can be more confusing than you think
 * Remember: as little code in the view as possible
-* Remember 2: as liitle code in the controller as possible
+* Remember 2: as little code in the controller as possible
 * So, where then? models and other non-rails classes (POROs)
 * Best is when you write code with NO rails dependency! (odd, right?)
 * Improves testability, modularity and reusability!
@@ -50,12 +53,11 @@ cat: rails
   * Legitimately is related to just the 'persisted data'
   * Confusing when you need a method that touches two models
 
-#### Respect your database!
+:slide_title Respect your database!
+
 * Notice how many calls to the database are needed to display a page
 * Bad sign: O(n) database calls, where n = number of rows displayed
 * More sophisticated ActiveRecord techniques to have one call do more work
 * Let's take a look at the home page
 
-
-#### Look at next class
-* Look at homework <%= link_to_next_lecture %>
+:lecture_end
