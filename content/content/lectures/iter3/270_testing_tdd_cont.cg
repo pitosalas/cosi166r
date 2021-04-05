@@ -1,0 +1,17 @@
+---
+title: TDD, Continued
+hwref: week11
+desc: We continue on TDD from the previous class
+cat: testing
+slides: true
+---
+:h2 TDD Continued
+
+* :topic_link :testing_pyramid
+* :topic_link :testing_reasons
+* :topic_link :mocking
+* :topic_link :testing_data
+* :topic_link :testing_in_rails
+* :topic_link :hands_on_rails_test
+
+:lecture_end

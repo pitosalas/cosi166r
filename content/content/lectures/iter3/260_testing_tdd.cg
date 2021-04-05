@@ -3,33 +3,27 @@ title: Test Driven Development
 desc: Diving deeper into Testing and Quality
 hwref: week11
 cat: testing
+slides: true
 ---
+:h2 Logistics
 
-#### Ongoing Work
-* **Teams**: Continue working on your projects!
+* Checkin Questions
+* Look at :topic_link :poro_service_objects
 
-### Today
-* 30 Minutes "ASK ME ANYTHING" with Glenn McDonald.
-* Look at <%= link_to_topic :poro_service_objects %>
+:slide_title Term Projects Discussion
 
-#### Discussion on the homework
+* Review of key dates: :section_link :intro :term_project
 
-* What Did you really do? What is the key to it?
-* How did it feel to program in this way? Was it easier, harder, different?
-* Conventions: file names, separating the tests from the code (why?)
-* What do "I" do with testing in "real life"?
-* Whats the difference between Rspec and Minitest?
+:slide_title Donald Knuth quote
 
-#### Donald Knuth quote
-
-* Interesting from an old archival letter between Knuth and Emde Boas.
+* Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
 * Knuth very famous, Emde Boas, not so much.
 * If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
 
 <a href="https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf"><img src="/content/topics/images/bewarebugs.jpg" class="img-thumbnail" style="height:300px;"/></a>
 
-### Testing and TDD Intro
-<%= include_topic :testing_intro %>
+:slide_title Introduction to Testing
+:topic_include :testing_intro
 
 #### Some examples
 * Let's take a look at: [Dumb Factorial Implementation](https://github.com/pitosalas/tdd_demo/blob/master/tdd_demo.rb)
