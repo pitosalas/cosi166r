@@ -12,6 +12,7 @@ slides: true
 :slide_title Term Projects Discussion
 
 * Review of key dates: :section_link :intro :term_project
+* Let's take a look at previous year's: [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
 * What will it take to have a great term project?
   1. Look closely at :topic_link :cosi166_project_stage4 and :topic_link :cosi166_final_deliverables
   1. Work in parallel with other team members
@@ -22,20 +23,20 @@ slides: true
 
 **(I really asked them over the weekend what tips they had for Cosi166b Success!)**
 
-#### Communication
+:h4 Communication
 
 * Always make sure team communication is effective, and overly communicate to your teammates about your progress/problems encountered to get help. 
 * At each meeting, each person should describe verbally what they did, what they're stuck on, and what they are going to do. 
 * Have a group chat going on whatever platform is most comfy for the group (they can figure that out in the first meeting too). Slack, discord, whatever, what matters is that everyone will remember to check it regularly.
 * Maybe find a time that works for everyone to stay on zoom and implement something together or do pair programming? 
 
-#### Alignment
+:h4 Alignment
 
 * Make sure you and your team are all on the same page. 
 * If they're not sure what they should be doing, that needs to be fixed asap or it gets awkward for everyone
 * That way things that need to get done get done and things aren't forgotten or overlooked.
 
-#### Scheduling
+:h4 Scheduling
 
 * Don't wait till last minute, make a schedule of what needs to be done and stick with it (this has been reiterated probably thousands of times, but people tend to procrastinate.
 * Prioritize the necessary parts of the project first.
@@ -44,27 +45,25 @@ slides: true
 * Continuous Integration/Deployment is a crucial step in industry so it is important to setup and include this step from the beginning 
 * At each meeting, schedule the next one (preferably not at the very end of the meeting)
 
-:slide_bigtitle Donald Knuth quote
+:slide_bigtitle Why Testing?
+
+:image :bewarebugs
 
 * Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
 * Knuth very famous, Emde Boas, not so much.
 * If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
 
-<a href="https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf"><img src="/content/topics/images/bewarebugs.jpg" class="img-thumbnail" style="height:300px;"/></a>
 
 :slide_title Introduction to Testing
+
 :topic_include :testing_intro
 
 :slide_title Some examples
-* Look at :topic_link :poro_service_objects
-* Let's take a look at: [Dumb Factorial Implementation](https://github.com/pitosalas/tdd_demo/blob/master/tdd_demo.rb)
+
+* Let's take a look at: [Dumb Factorial Implementation](https://raw.githubusercontent.com/pitosalas/public_samples/master/ruby/tdd_demo0/dumb_factorial.rb)
 * What other tests can we do to test this Factorial class?
 * There are a huge variety of tools and techniques to avoid repetitious coding
 * We will be using the built-in unit testing framework called "minitest"
 * For this course focus ONLY on unit testing
-
-:slide_title Testing a full ruby class
-* Let's take a look at :topic_link :money_class_test_example or [PlayingCard Class](https://github.com/pitosalas/tdd_demo/blob/master/playingcard.rb)
-* Break into groups and come up with a list of tests that you would write
 
 :lecture_end

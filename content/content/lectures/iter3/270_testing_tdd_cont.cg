@@ -5,7 +5,11 @@ desc: We continue on TDD from the previous class
 cat: testing
 slides: true
 ---
-:h2 TDD Continued
+:h2 Logistics
+* Checkin questions
+* Any other discussion, feedback, or funny story?
+
+:slide_title Going deeper on testing Continued
 
 * :topic_link :testing_pyramid
 * :topic_link :testing_reasons
@@ -13,5 +17,13 @@ slides: true
 * :topic_link :testing_data
 * :topic_link :testing_in_rails
 * :topic_link :hands_on_rails_test
+
+
+:slide_title Testing a full ruby class
+
+* Let's take a look at :topic_link :money_class_test_example or [PlayingCard Class](https://github.com/pitosalas/tdd_demo/blob/master/playingcard.rb)
+* Break into groups and come up with a list of tests that you would write
+* Look at :topic_link :poro_service_objects
+
 
 :lecture_end
