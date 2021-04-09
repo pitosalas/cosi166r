@@ -1,59 +1,40 @@
 ---
-title: Ajax in Rails
-desc: Using Ajax with Rails
+title: "\"Ajax\" in Rails"
+desc: Using Ajax with Rails to make websites more responsive
 hwref: week12
 cat: advanced
+slides: true
 ---
+:h2 Logistics
 
-#### Ongoing Work
+* Checkin questions!
 
-* **Teams**: Continue working on your projects!
+:topic_include :ajax
 
-### Formal Project Review Checkpoints
+:slide_subtitle Usual process in web server
 
-* Starting tomorrow and all of next week.
-* This will be graded.
-* For fairness, if you dont reserve a block or miss the 1 week window, 10 points will be deducted
-* Unless excused, all team members need to be present
-* Use this link to reserve a 45 minute spot: [Reservation for 166 PRC](https://calendly.com/pitosalas/166)
-* The meetings will be held over zoom
-* TAs are meeting with you right now to help you prepare
-* Prepare A brief presentation (maybe 5-10 minutes)
-  * Project summary
-  * Major Features that you will demo on Presentation Day
-  * Architecture (both implemented and planned)
-  * Key interesting Technology
-* Prepare A demo of what is working
-  * Best if you have a "script" which will tie together the demo
-  * Best if you are running on Heroku
-  * Looking for:
-    * Fit and finish
-    * Do things actually work
-    * What features are working or coming along
+* Browser issues an HTTP Request
+* Server responds by running action, which generates html
+* HTML is used for the response to the browser
+* Browser displays it
 
-<%= include_topic :ajax %>
+:slide_subtitle Ajax process
 
-### Ajax Review
+* Browser issues an HTTP request
+* Request is issued for remote processing
+* "In background"
+* `remote: true`
+* Server responds by running action, which generates javascript
+* Returned to the browser
+* Browser executes it
 
-* Usual process in web server
-  * Browser issues an HTTP Request
-  * Server responds by running action, which generates html
-  * HTML is used for the response to the browser
-  * Browser displays it
-* Ajax process
-  * Browser issues an HTTP request
-  * Request is issued for remote processing
-  * "In background"
-  * `remote: true`
-  * Server responds by running action, which generates javascript
-  * Returned to the browser
-  * Browser executes it
-* Javascript processing
-  * JS is a general purpose language
-  * Browser exposes the DOM as `document.`
-  * Executing js can access and modify the
+:slide_subtitle Javascript processing
 
-### Forms Review
+* JS is a general purpose language
+* Browser exposes the DOM as `document.`
+* Executing js can access and modify the
+
+:slide_title Forms Review
 
 * remote: true, default with form_with
 * Think about what the submit button does:
@@ -65,13 +46,12 @@ cat: advanced
   * **Decide precisely what you want to do**
   * Example where we change 'date updated' with ajax
 
-
-### Code Review
+:slide_title Code Review
 
 * Look at [ajax_demo](https://github.com/pitosalas/public_samples/tree/master/rails/rails_ajax_demo)
 * Look at [rails_ajax_demo](https://github.com/pitosalas/rails_ajax_demo)
 
-#### Server Push
+:slide_title Server Push
 
 * Not a real term :)
 * Many different ways of approaching. Sort of immature right now
