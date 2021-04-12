@@ -36,10 +36,10 @@ slides: true
 
 :slide_title Forms Review
 
-* remote: true, default with form_with
+* The default with form_with is **local: true**
 * Think about what the submit button does:
-  * for remote:true, it does a post or patch, requesting .js response
-  * for remote:false, it does a post or patch, requesting .html response
+  * for **local:true**, it does a post or patch, requesting .html response
+  * for **local:false**, it does a post or patch, requesting .js response
   * if url was .json, it does a post or patch, requesting .json back
 
 * How to ajaxify a form
@@ -48,8 +48,7 @@ slides: true
 
 :slide_title Code Review
 
-* Look at [ajax_demo](https://github.com/pitosalas/public_samples/tree/master/rails/rails_ajax_demo)
-* Look at [rails_ajax_demo](https://github.com/pitosalas/rails_ajax_demo)
+* Look at [rails ajax_demo](https://github.com/pitosalas/public_samples/tree/master/rails/rails_ajax_demo)
 
 :slide_title Server Push
 
@@ -62,5 +61,5 @@ slides: true
 * Some links to study further:
   * New Service to support Pusher on a separate Service: [Pusher Service - free push](http://pusher.com)
   * How to use WebSockets on Heroku: [WebSockets on Heroku](https://devcenter.heroku.com/articles/ruby-websockets)
-  * Rails 5 Action Cable, [YouTube Demo of Rails 5 Action Cable](https://www.youtube.com/watch?v=n0WUjGkDFS0)
+  * Rails Action Cable, [YouTube Demo of Rails 5 Action Cable](https://www.youtube.com/watch?v=n0WUjGkDFS0)
 * Look at FormsDemo for Pusher
