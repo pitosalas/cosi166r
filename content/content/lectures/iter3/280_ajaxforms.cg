@@ -23,7 +23,7 @@ slides: true
 * Browser issues an HTTP request
 * Request is issued for remote processing
 * "In background"
-* `remote: true`
+* `local: false`
 * Server responds by running action, which generates javascript
 * Returned to the browser
 * Browser executes it
