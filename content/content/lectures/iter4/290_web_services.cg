@@ -4,9 +4,16 @@ desc: Web Services, how they work, and how to use them
 hwref: week12
 cat: advanced
 ---
+:h2 Logistics
 
-#### Ongoing Work
-* **Teams**: Continue working on your projects!
+* Checkin Questions
+
+
+<%= include_topic :rest_web_services %>
+<%= include_topic :rails_api %>
+
+### Look at next class
+* Look at homework <%= link_to_next_lecture %>
 
 ### Web Services
 * Fortune API deployed on Heroku

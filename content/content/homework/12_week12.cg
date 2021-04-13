@@ -1,0 +1,29 @@
+---
+title: Rails continued and ActionCable
+lectref: responsive responsive_cont
+due: 4/19/2020 at 11:50pm
+---
+
+:h2 1. Read [Ruby on Rails Tutorial](https://www.railstutorial.org/book/beginning##cha-beginning) Chapter 10 :partbadge
+
+**YES: We skipped a chapter.** In this chapter we continue developing the big example, by adding logic to update users. Now we gradually move from authentication to authorization, which in a way is much simpler. As usual I really encourage and ask you to go through the code samples and actually type them in. You will see that it really helps your understanding and will assure your success in this course! Use your resources: the TAs, the class mailing list, stack overflow, google and push through to success! When you are done, go to Latte and answer these warmup questions:
+
+* What is a before_action? Try to be precise (but the answer can be expressed in two sentences.)
+* What does this css selector do: `.users { ...`
+* What are "strong parameters" and what is their purpose? What security risk are they meant to combat?
+* Are there one or two things you are still confused by? Code that you've written which is pure magic and meaningless to you? If not, what one or two things were the most memorable about your reading?
+
+:deliverable Submit your answers as a pdf to latte.
+
+:h2 2. Learn about ActionCable :pdfbadge :partbadge
+* Read and understand ActionCable. This is the offical [Rails 6 Guide to ActionCable](https://edgeguides.rubyonrails.org/action_cable_overview.html). And here's a [tutorial](http://www.sitepoint.com/action-cable-and-websockets-an-in-depth-tutorial/?utm_source=rubyweekly&utm_medium=email). Answer these warmup questions please:
+  1. What is a way that you could use ActionCable in your product?
+  1. What problem does ActionCable solve, and how does it relate if at all to WebSockets?
+  1. Please comment on points of confusion or enlightenment with ActionCable.
+
+:deliverable Your responses as a pdf
+
+:h2 3. Weekly Progress Updates :partbadge :pdfbadge :teambadge
+
+Follow these instructions, :topic_link :weekly_progress_updates to prepare your status report.
+
