@@ -16,6 +16,7 @@ due: 4/19/2020 at 11:50pm
 :deliverable Submit your answers as a pdf to latte.
 
 :h2 2. Learn about Stimulus Reflex :pdfbadge
+
 * Read and understand Stimulus Reflex and Websockets. This is the offical [Stimulus Reflex Documentation](https://docs.stimulusreflex.com/). And here's a [tutorial](https://www.youtube.com/watch?v=F5hA79vKE_E&feature=emb_title). Answer these warmup questions please:
   1. What is a way that you could use Stimulus Reflex in your product?
   1. What problem does Stimulus Reflex solve, and how does it relate if at all to WebSockets?
