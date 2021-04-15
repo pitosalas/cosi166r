@@ -3,6 +3,7 @@ title: Responsive UI, Continued
 desc: Applying Ajax and Responsive UI concepts
 hwref: week12
 cat: advanced
+slides: true
 ---
 :h2 Logistics
 
@@ -10,12 +11,12 @@ cat: advanced
 
 :slide_title Javascript Frameworks & Libraries
 
-:slide_subtitle Single Page Web Applications (SPAs) vs. Traditional Applications
+:h4 Single Page Web Applications (SPAs) vs. Traditional Applications
 
 * Examples of SPAs you've probably heard of: React, Angular, Vue... many more
 * Javascript is the lifeblood of many of these SPAs - you can not escape Javascript
 
-:slide_subtitle How do they work?
+:h4 How do they work?
 
 * Rather than call a controller/action to render some HTML, it renders HTML through one element.
 * Client side rendering - a single HTML file for an entire app?
@@ -29,11 +30,12 @@ cat: advanced
 
 :slide_title Other shiny new tools
 
-* Hotwire - allows you to divide pages into components, and stream partial page updates using websockets
-* Stimulus Reflex - Much less new, alternative to SPAs, allows you to listen to changes streamed via CableReady (websockets) and more the application state
-    * [Stimulus Reflex Demos](http://expo.stimulusreflex.com/)
+* Hotwire - allows you to divide pages into components, and stream partial page updates using web-sockets
+* Stimulus Reflex - Much less new, alternative to SPAs, allows you to listen to changes streamed via CableReady (web-sockets) and more the application state
+* [Stimulus Reflex Demos](http://expo.stimulusreflex.com/)
 
 :slide_title A friendly warning!
+
 * Do not invest in a framework unless you can list all of its use cases/applicability/disadvantages to your application
 * Lots of different frameworks do the same thing but in different ways, each with different advantages/disadvantages
 
