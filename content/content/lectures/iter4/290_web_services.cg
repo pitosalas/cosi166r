@@ -3,33 +3,20 @@ title: APIs, REST, PUSH
 desc: Web Services, how they work, and how to use them
 hwref: week12
 cat: advanced
+slides: true
 ---
 :h2 Logistics
 
 * Checkin Questions
 
+:slide_bigtitle Key Topics 
 
-<%= include_topic :rest_web_services %>
-<%= include_topic :rails_api %>
+* :topic_link :rest_web_services
 
-### Look at next class
-* Look at homework <%= link_to_next_lecture %>
+* :topic_link :rails_api
 
-### Web Services
-* Fortune API deployed on Heroku
-  * Visit the fortune_api: [Fortune API on Heroku](https://rpsfortune.herokuapp.com/fortune/random)
-  * Let's take a look at the code [Restapidemo](https://github.com/pitosalas/restapidemo)
+* :topic_link :push_websockets
 
-#### Accessing a web service
-* Accessing and testing out a Web Api before using it
-* Writing throw away code ("spikes")
-* Use a gem or build a gem: isolation
-* Don't be scared: How to look inside a gem at its code (see gem `gem-open`)
-* If the gem doesn't do what you need, look for another one!
-* Data conversions are often a challenge
-* Discuss the exmples in ruby [Web Service Demo Code](https://github.com/pitosalas/public_samples/tree/master/ruby/webservicedemo)
+* :topic_link :graphql
 
-<%= include_topic :push_websockets %>
-
-### Look at next class
-* Look at homework <%= link_to_next_lecture %>
+:lecture_end
