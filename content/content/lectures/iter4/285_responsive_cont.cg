@@ -9,6 +9,10 @@ slides: true
 
 * Checkin Questions
 
+:slide_title What to do in the remaining weeks
+
+:image :2021endofsemprefs
+
 :slide_title Javascript Frameworks & Libraries
 
 :h4 Single Page Web Applications (SPAs) vs. Traditional Applications
@@ -39,5 +43,8 @@ slides: true
 * Do not invest in a framework unless you can list all of its use cases/applicability/disadvantages to your application
 * Lots of different frameworks do the same thing but in different ways, each with different advantages/disadvantages
 
+:slide_title Introducing Web Services
+
+* :topic_link :rest_web_services
 
 :lecture_end
