@@ -8,6 +8,34 @@ cat: advanced
 
 * Checkin Questions
 
-:slide_title Mitchell Stuff
+:slide_title Javascript Frameworks & Libraries
+
+:slide_subtitle Single Page Web Applications (SPAs) vs. Traditional Applications
+
+* Examples of SPAs you've probably heard of: React, Angular, Vue... many more
+* Javascript is the lifeblood of many of these SPAs - you can not escape Javascript
+
+:slide_subtitle How do they work?
+
+* Rather than call a controller/action to render some HTML, it renders HTML through one element.
+* Client side rendering - a single HTML file for an entire app?
+* Disadvantages - not great for SEO, slower page download speeds
+
+:slide_title Stimulus.js and how it can help you!
+
+* Stimulus JS - a Javascript library meant to augment (but not take over) your HTML
+* Create Javascript controllers/actions, listen for changes, update
+* [A basic demo](https://github.com/pitosalas/public_samples/tree/master/rails/stimulus_demo)
+
+:slide_title Other shiny new tools
+
+* Hotwire - allows you to divide pages into components, and stream partial page updates using websockets
+* Stimulus Reflex - Much less new, alternative to SPAs, allows you to listen to changes streamed via CableReady (websockets) and more the application state
+    * [Stimulus Reflex Demos](http://expo.stimulusreflex.com/)
+
+:slide_title A friendly warning!
+* Do not invest in a framework unless you can list all of its use cases/applicability/disadvantages to your application
+* Lots of different frameworks do the same thing but in different ways, each with different advantages/disadvantages
+
 
 :lecture_end
