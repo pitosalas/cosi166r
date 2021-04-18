@@ -14,7 +14,13 @@ Follow these instructions, <%= link_to_topic :weekly_progress_updates %> to prep
 
 :team_deliverable Weekly Progress Update
 
-:h2 3. Work on Projects 100% of the time
+:h2 3. Read recent articles
+
+1. https://blog.engineyard.com/the-ruby-unbundled-series-release-features-faster-by-slowing-down
+
+:deliverable NONE
+
+:h2 4. Work on Projects 100% of the time
 
 :deliverable NONE
 

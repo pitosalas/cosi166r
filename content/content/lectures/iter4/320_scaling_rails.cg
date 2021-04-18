@@ -5,19 +5,14 @@ hwref: week14
 cat: advanced
 ---
 
-#### Ongoing Work
+:h2 Logistics
 
-* **Teams**: Continue working on your projects!
-
-### Today
-
-* For something different: AMA with Pito
+* Checkin Questions
 * What do you most want to know about Scaling?
 * What will stay with you for years, and what will evaporate this afternoon?
 * What's the best way to spend the coming hour?
 
-<%= include_topic :scaling %>
-<%= include_topic :tuning_scalability %>
+:topic_include :scaling
+:topic_include :tuning_scalability
 
-### Look at next class
-* Look at homework <%= link_to_next_lecture %>
+:lecture_end
