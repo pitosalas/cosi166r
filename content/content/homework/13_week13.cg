@@ -3,25 +3,21 @@ title: Peer Assessments, Progress Update, Projects Projects Projects
 lectref: mobile scaling_rails
 due: 4/26/2020 at 11:50pm
 ---
+:h2 1. Stage 4 Deliverables 
 
-:h2 1. Self and Peer Assessments
+:callout :big, "SPECIAL DATE", "Stage 4 Deliverables -- Thursday April 29"
+
+* As a team work on :topic_link :cosi166_project_stage4 
+
+:deliverable See the link above
+
+:h2 2. Self and Peer Assessments :partbadge :pdfbadge
 
 :topic_include :hw_self_peer_assess_v3
 
-:h2 2. Submit your Weekly Progress Updates :partbadge :pdfbadge :teambadge
+:h2 3. Submit your Weekly Progress Updates :partbadge :pdfbadge :teambadge
 
-Follow these instructions, <%= link_to_topic :weekly_progress_updates %> to prepare your status report.
+Follow these instructions: :topic_link :weekly_progress_updates and prepare your status report.
 
 :team_deliverable Weekly Progress Update
-
-:h2 3. Read recent articles
-
-1. https://blog.engineyard.com/the-ruby-unbundled-series-release-features-faster-by-slowing-down
-
-:deliverable NONE
-
-:h2 4. Work on Projects 100% of the time
-
-:deliverable NONE
-
 
