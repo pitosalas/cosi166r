@@ -50,6 +50,22 @@ div.discussionbox {
   bottom: 20px;
 }
 
+div.callout {
+  border: 2px dotted rgba(93, 181, 206, 0.877);
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px;
+  font-size: 1.7rem;
+  position: fixed;
+  bottom: 20px;
+}
+
+div.callout-big {
+  
+}
+
 
 .jumbotron {
   /* background-color: rgb(203, 216, 250); */
