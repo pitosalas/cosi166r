@@ -38,18 +38,6 @@ body {
   font-size: 13px;
 }
 
-div.discussionbox {
-  border: 2px dotted rgba(206, 19, 19, 0.877);
-  margin-top: 40px;
-  margin-bottom: 5px;
-  margin-left: 70px;
-  margin-right: 70px;
-  padding: 10px;
-  font-size: 1.7rem;
-  position: fixed;
-  bottom: 20px;
-}
-
 
 .jumbotron {
   /* background-color: rgb(203, 216, 250); */
@@ -68,6 +56,6 @@ div.discussionbox {
   font-size: 3rem;
 }
 
-.callout {
-  font-size: 1.8rem;
+div.discussion {
+
 }
