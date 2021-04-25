@@ -29,10 +29,6 @@
   font-size: 1.8rem
 }
 
-.callout { 
-  font-size: 1.0rem;
-}
-
 body {
   font-family: Helvetica;
   font-size: 13px;
@@ -52,14 +48,22 @@ div.discussionbox {
 
 div.callout {
   border: 2px dotted rgba(93, 181, 206, 0.877);
+  border-radius: 7px;
   margin-top: 40px;
   margin-bottom: 5px;
   margin-left: 70px;
   margin-right: 70px;
-  padding: 10px;
+  padding: 20px;
   font-size: 1.7rem;
   position: fixed;
   bottom: 20px;
+}
+
+.callout-badge {
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 4px;
+  margin-right: 5px;
 }
 
 div.callout-big {
@@ -82,8 +86,4 @@ div.callout-big {
 
 .jumbotron h1 {
   font-size: 3rem;
-}
-
-.callout {
-  font-size: 1.8rem;
 }

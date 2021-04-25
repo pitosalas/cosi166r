@@ -204,6 +204,14 @@ div.discussionbox {
   padding: 10px;
 }
 
+.callout-badge {
+  background-color: #007bff;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+  margin-right: 5px;
+}
+
 .iconbadge {
   margin-left: 0.4rem;
   margin-right: 0.25rem;
