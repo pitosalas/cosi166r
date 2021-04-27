@@ -1,0 +1,13 @@
+---
+title: Real World Survival Kit
+desc: Open discussion about life after Brandeis
+hwref: week14
+slides: true
+---
+:h2 Logistics
+
+* Continue with code refactoring and discussions from last class
+
+:topic_include :real_world
+
+:lecture_end
