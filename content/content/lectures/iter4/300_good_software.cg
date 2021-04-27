@@ -13,12 +13,19 @@ hwref: week13
 :topic_include :rails_smells
 :topic_include :refactoring
 
+:slide_title My goals for you
 
-:slide_title References
+* Develop a keen sense of code smells so that they bother you when you write them or when you read them
+* Learn the value of tests of all kinds and see how they make you a more confident software engineer
+* Appreciate that software design is more than getting the right anwser and that there is a craft to it
+* Learn refactoring as an important tool in your toolbox
+* Keep on growing and learning and practicing this craft
 
-* [Refactoring Techiniques](http://www.integralist.co.uk/posts/refactoring-techniques.html): The problem with this article is that it tries to explain too many patterns. You don't need them all to begin refactoring. Start with the most common case, ["extract Method"](http://www.integralist.co.uk/posts/refactoring-techniques.html#13) and build up your toolbox accordingly.
-* Here's a catalog of the classic [Refactoring](https://sourcemaking.com/refactoring) patterns.
-* A pretty good tutorial covering some of the [Ruby/Rails Code Smells Basics](https://code.tutsplus.com/series/ruby-rails-code-smell-basics--cms-960)
-* [Decoupling Rails Componenets](https://www.toptal.com/ruby-on-rails/decoupling-rails-components?utm_campaign=blog_post_decoupling_rails_components)
-* :topic_link :se_rules_of_thumb
-* [Quick Summary of Martin Fowler's "Refactoring"](https://github.com/HugoMatilla/Refactoring-Summary)
+:slide_bigtitle Lets look at some examples (thanks!)
+
+* In Mentorship
+  1. Migrations aren't working
+  1. Match.rb is super long
+  1. Matches controller has some wrong assumptions about state management
+
+
