@@ -24,7 +24,10 @@ slides: true
 
 * Here are the details of what the deliverables should contain (by the showcase): :topic_link :cosi166_final_deliverables
 * All deliverables due on the day of your Zoom meeting with Pito and the TA
-* Code in github may be updated until the last minute
+* Between that time and when you demo you can submit a "delta" . 
+* So if you fixed a bug, got something to work that wasn't, or cleaned up some code or text we will accept a supplementary submission IF you declare it officially.
+* We will look at your github commit log and will not consider undeclared or excessive changes. If you just modify your Github, we will notice and not consider the update.
+* To declare your changes you need to send an email to Pito with a cover note explaining the changes and the file names and a link to what was changed and if appropriate and required we will adjust the grade.
 
 :slide_bigtitle THANKS
 
