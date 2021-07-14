@@ -5,7 +5,7 @@ hwref: week2
 cat: general
 slides: true
 ---
-## Plan
+:h2 Plan
 
 * Intro and welcome
 * Check-in questions
@@ -15,35 +15,24 @@ slides: true
 * Pre-work discussion
 * Logistics
 
-<slide_break></slide_break>
+:slide_title About
 
-## About
-
-* Introduce Pito, where I came from, and why I am excitied about this course. Why do I do this? Look at: <%= link_to_topic :pitofaq %>.
+* Introduce Pito, where I came from, and why I am excitied about this course. Why do I do this? Look at: :topic_link :pitofaq .
 * Why do I think the content of this course is important?. Why might you find it important and useful?
 * What kinds of specific skills will you learn and practice in this course? Could this course change your life?
 * [Projects from previous semesters](http://pitosalas.github.io/brandeisprojects/)
 
-<slide_break></slide_break>
-
-## 20 Minute Quick Assignment
+:slide_title 20 Minute Quick Assignment
 
 * [Leveling Exercise](https://moodle2.brandeis.edu/mod/quiz/view.php?id=1593728&forceview=1)
 
-<slide_break></slide_break>
+:slide_title Getting to know each other a little - 20 minutes
 
-## Getting to know each other a little - 20 minutes
+:topic_include :zoom_icebreaker
 
-<%= include_topic :zoom_icebreaker %>
+:slide_title Discuss Pre-work
 
-<slide_break></slide_break>
-
-## Discuss Pre-work
-
-* How far did you get in the <%= link_to_section :intro, :required_preparation %>
+* How far did you get in the :section_link :intro, :required_preparation
 * What's cool about Ruby? What don't you like?
 
-<slide_break></slide_break>
-
-
-## That's all for today!
+:lecture_end
