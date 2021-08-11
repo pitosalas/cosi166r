@@ -67,6 +67,9 @@ SITE_URL = "http://cosi102r.s3-website-us-east-1.amazonaws.com"
 # Note: the .erb suffix is required when setting the HOME_PAGE path.
 HOME_PAGE = "/content/intro/00_syllabus.md.erb"
 
+# SECRET_PAGE is where we go when the url is /secret
+SECRET_PAGE = "/content/extras/secret.md.erb"
+
 # Menulinks defines the links on the navigation bar.
 # They are formatted as "Name" - "URL" pair.
 #
@@ -75,7 +78,7 @@ HOME_PAGE = "/content/intro/00_syllabus.md.erb"
 #   %w[TOC /content/course_toc.md]
 MENULINKS = [%w[lectures /content/intro/10_coursetoc.md/],
             %w[homeworks /content/intro/40_weeks.md/],
-            %w[latte https://moodle2.brandeis.edu/course/view.php?id=21991],
+            %w[latte https://moodle2.brandeis.edu/course/view.php?id=24507],
             %w[examples http://pitosalas.github.io/brandeisprojects/]].freeze
 
 # Helpful_box provides a feedback box on the sidebar.

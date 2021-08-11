@@ -1,29 +1,24 @@
 ---
 title: Project Pre-launch
 desc: Projects really start. Discuss the plan of attack and the roadmap
-hwref: week4
 cat: prod
 slides: true
 ---
-## Logistics (20 minutes)
+:h2 Logistics (20 minutes)
 
 * Realize that "lecture notes" are all here for you, whether I use slides or not!
 * Checkin questions
 
-<slide_break></slide_break>
+:slide_title HTTP and Web Servers - 25 Minutes
 
-### HTTP and Web Servers - 25 Minutes
-
-* <%= link_to_topic :how_web_servers_work %>
-* <%= link_to_topic :http %>
+* :topic_link how_web_servers_work
+* :topic_link http
 * Breakout: as a team figure out whether you understand
   1. http as a request-response protocol
   1. what the demonstration with telnet actually means
   1. Follow the discussion wherever it leads
 
-<slide_break></slide_break>
-
-### Term Project (10 minutes) (25 minutes)
+:slide_title Term Project (10 minutes) (25 minutes)
 
 * Instead of a final, this course will have a Showcase day where everyone presents and demos their products
 * You will need to plan out what you want to have working on that day
@@ -39,11 +34,9 @@ slides: true
   * Divide and conquer! Make sure each team member has a distinct deliverable!
   * Dig into the difficult things - don't avoid them in favor of the easy things!
 * One of the principles of Agile development is to have running code as soon as possible and all the time
-* Let's take a look at <%= link_to_topic :mini_scrum %>
+* Let's take a look at :topic_link mini_scrum
 
-<slide_break></slide_break>
-
-### Breakout with your team
+:slide_title Breakout with your team
 
 * Notice the new tab, `teams` in the [product ideas list](https://docs.google.com/spreadsheets/d/1XHJ_izM80OkmTaVc0K4PV1CyhzD_5Urbw62M_V_kwKg/edit#gid=1894526136)
 * Add or use a row for your team, give it a name, and place the team members' emails in the columns
@@ -52,6 +45,4 @@ slides: true
 * There's also room for a backup product choice
 * The person who first proposed the idea has priority if their team choses that idea
 
-<slide_break></slide_break>
-
-## That's All For Today
+:lecture_end

@@ -86,6 +86,10 @@ route HOME_PAGE, rep: :slides do
   '/slides.html'
 end
 
+route SECRET_PAGE do
+  '/secret.html'
+end
+
 route '/**/*' do
   if item[:extension].nil?
     raise RuntimeError, "Missing required extension: \".#{item.identifier}\""

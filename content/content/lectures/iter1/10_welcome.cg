@@ -1,23 +1,19 @@
 ---
 title: Welcome
 desc: Intro to course and how to succeed
-hwref: week2
 cat: general
 slides: true
 ---
-:h2 Plan
+:h2 Welcome
 
-* Intro and welcome
-* Check-in questions
-* What is this course about
-* 20 minute quick evaluation
-* Zoom life
-* Pre-work discussion
-* Logistics
+* What is it like for me to be teaching face to face again?
+* How does it feel to you all?
+* What will be different and what will be the same?
+* How should be do "breakouts" in person?
 
-:slide_title About
+:h2 Welcome, again!
 
-* Introduce Pito, where I came from, and why I am excitied about this course. Why do I do this? Look at: :topic_link :pitofaq .
+* Introduce Pito, where I came from, and why I am excited about this course. Why do I do this? Look at: :topic_link :pitofaq.
 * Why do I think the content of this course is important?. Why might you find it important and useful?
 * What kinds of specific skills will you learn and practice in this course? Could this course change your life?
 * [Projects from previous semesters](http://pitosalas.github.io/brandeisprojects/)
@@ -25,10 +21,6 @@ slides: true
 :slide_title 20 Minute Quick Assignment
 
 * [Leveling Exercise](https://moodle2.brandeis.edu/mod/quiz/view.php?id=1593728&forceview=1)
-
-:slide_title Getting to know each other a little - 20 minutes
-
-:topic_include :zoom_icebreaker
 
 :slide_title Discuss Pre-work
 

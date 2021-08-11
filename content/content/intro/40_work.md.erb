@@ -1,0 +1,31 @@
+---
+title: Homework
+---
+## Submitted Homeworks
+
+<%= list_of(source: "topics",
+            rows: ["page"],
+            subsections: ["/content/topics/homeworks_active/166_sub/"],
+            cols: [:due, :title, :desc],
+            headers: {due: "Due on", title: "Assignment name", desc: "More detail" },
+            items: @items) %>
+
+## Activities without submissions
+
+<%= list_of(source: "topics",
+            rows: ["page"],
+            subsections: ["/content/topics/homeworks_active/166_act/"],
+            cols: [:due, :title, :desc],
+            headers: {due: "Planned for", title: "Assignment name", desc: "More detail" },
+            items: @items) %>
+
+## Readings
+
+<%= list_of(source: "topics",
+            rows: ["page"],
+            subsections: ["/content/topics/homeworks_active/166_read/"],
+            cols: [:due, :title, :desc],
+            headers: {due: "Due on", title: "Assignment name", desc: "More detail" },
+            items: @items) %>
+
+

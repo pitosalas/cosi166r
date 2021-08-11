@@ -1,18 +1,15 @@
 ---
 title: Software Design
 desc: Where we go deeper into Software Design and Object Oriented Programming
-hwref: week3
 slides: true
 cat: ruby
 ---
-## Logistics (10 minutes)
+:h2 Logistics (10 minutes)
 
 * Checkin questions
 * Any burning questions
 
-<slide_break></slide_break>
-
-### Class Norms (10 minutes)
+:slide_title Class Norms (10 minutes)
 
 * Be a professional. Treat others as you would want to be treated and show respect for one another. Be willing to make and keep commitments. Show up.
 * Be human. Be patient with each other, your TAs, and Pito. These are difficult times. You never know what is going on in someone's life outside of this class.
@@ -27,26 +24,15 @@ cat: ruby
 
 * Please do it now: [Basic Ruby and Shell Quiz](https://moodle2.brandeis.edu/mod/quiz/view.php?id=1601424)
 
-<slide_break></slide_break>
+:slide_bigtitle Software Design and Object Oriented Design (20 minutes)
 
-## Software Design and Object Oriented Design (20 minutes)
+:topic_include :good_programming
 
-* What is Software Design?
-* What is Object Oriented Design?
-* Why should we care especially with Ruby and Rails?
-* How does it apply to the work we are doing right now?
+:slide_bigtitle Programming Style
 
-<slide_break></slide_break>
+:topic_include :programming_style
 
-<%= include_topic :good_programming %>
-
-<slide_break></slide_break>
-
-<%= include_topic :programming_style %>
-
-<slide_break></slide_break>
-
-## Exercise 
+:slide_title Exercise 
 
 * Groups of 2 students
 * Review the supplied program.rb
@@ -54,14 +40,11 @@ cat: ruby
 * Edit the program and add the names of the two students in a comment at the top
 * Submit your updated program.rb to Latte
 
-<slide_break></slide_break>
-### Discussion
+:slide_title Discussion
 
 * Discussion about hard and fast rules
 * What's the right amount of code commenting?
 * How important is proper formatting?
 * Why is naming important and what is it's connection to commenting?
 
-<slide_break></slide_break>
-
-## That's all for today
+:lecture_end

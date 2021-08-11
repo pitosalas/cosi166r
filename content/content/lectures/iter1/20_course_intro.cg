@@ -1,80 +1,61 @@
 ---
-title: Projects, Teams and Brainstorming
+title: Teams and Projects
 desc: See demos of lots of ruby, see Ruby in action, discuss the features of the language
-hwref: week2
 cat: ruby
 slides: true
 
 ---
 ## Logistics
 
-* Welcome! Checkin Questions
-* Here are the <%= link_to_topic :books_cosi166 %>
-* Here are the <%= link_to_topic :goals_cosi166 %>
+* Checkin Questions
+
+* Here are the :topic_link :books_cosi166
+* Here are the :topic_link :goals_cosi166
 * Let's take a quick look at: 
+
   1. [This web site](http://cosi166b.s3-website-us-west-2.amazonaws.com)
   1. [Latte for this course](https://moodle2.brandeis.edu/course/view.php?id=21991)
   1. [Here's the course calendar](https://calendar.google.com/calendar/u/0?cid=Y185Y2RoNzU0YXRqb3VocGk2NG84Z3RlMWJuc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
   1. [our course Slack channel](https://join.slack.com/t/cosi166bcapst-xrc2840/shared_invite/zt-ljompw46-dl0_yCvXkvXhVec~TCIIcQ)
 
-<slide_break></slide_break>
-
-<%= include_topic :social_contract %>
-
-<slide_break></slide_break>
-
-
-## Product Brainstorm 30 minutes
+:slide_title Product Brainstorm 30 minutes
 
 * Random groups of 3-5 students in class - 30 minutes
-  * Get to know each other a little. Introduce yourselves
-  * Each student, in turn describes the product that they proposed
-  * Discuss your favorite product that you proposed or some other student proposed
-  * Prepare to explain it to the class in about 1 minute, so not a lot of detail
-  * Each group presents one product
+* Get to know each other a little. Introduce yourselves
+* Each student, in turn describes the product that they proposed
+* Discuss your favorite product that you proposed or some other student proposed
+* Prepare to explain it to the class in about 1 minute, so not a lot of detail
+* Each group presents one product
 
-<slide_break></slide_break>
-
-## Video Interlude
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wZR6QFE2m6o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<slide_break></slide_break>
-
-## Projects and teams
+:slide_title Projects and teams
 
 * Projects are at the core of this course, working in teams of 3 or 4
 * Each team will be building a product! We will help you find one!
 * We will be discussing how to work most effectively in a team, with some conceptual and some practical insights
 * Teams will be formed in collaboration with the students.
 
-<slide_break></slide_break>
+:slide_title Continued
 
 * You will start meeting together even before there are official team deliverables
 * No one "owns" the idea or the project. J
 * Just because you proposed it doesn't mean that another team can't use it too; and just because you proposed it doesn't mean that your teammates have to let you make all the decisions
 * Here's a [quick survey](https://forms.gle/LK6joH9643a5JJJe9) to collect information regarding your team preferences: https://forms.gle/LK6joH9643a5JJJe9
 
-<slide_break></slide_break>
+:slide_title Handy demo files
 
-## Ruby Similarity and differences
+* :topic_link :ruby_intro_tut
+* :topic_link :classes_tut
+* :topic_link :inheritance_tut
 
-* Live coding examples here: [Ruby Basics](https://github.com/pitosalas/public_samples/tree/master/ruby/basics)
+:slide_title Ruby Similarity and differences
+
 * No public static main
 * No compile step
-* GEMs
-* Rake
+* Ruby versions
+* `gem`s
+* `rbenv`
 * `ruby filename.rb`
-* irb or pry
+* `irb` - REPL
 
-<slide_break></slide_break>
 
-### Handy demo files
-
-* <%= link_to_topic :ruby_intro_tut %>
-* <%= link_to_topic :classes_tut %>
-* <%= link_to_topic :inheritance_tut %>
-
-<slide_break></slide_break>
-
-## That's all for today
+:lecture_end
