@@ -4,7 +4,11 @@ desc: Where we go deeper into Software Design and Object Oriented Programming
 slides: true
 cat: ruby
 ---
-:h2 Logistics (10 minutes)
+:h2 Work for today
+
+* :topic_link :hw_166_lrthw
+
+:slide_title Logistics (10 minutes)
 
 * Checkin questions
 * Any burning questions

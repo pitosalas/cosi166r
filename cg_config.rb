@@ -8,7 +8,7 @@ require 'coursegen'
 
 # AUTHOR
 AUTHOR_NAME = 'R. Pito Salas'
-AUTHOR_EMAIL = 'pitosalas@brandeis.edu'
+AUTHOR_EMAIL = 'rpsalas@brandeis.edu'
 COPYRIGHT_STRING = "Copyright (2013-#{Time.now.year}) #{AUTHOR_NAME}, #{AUTHOR_EMAIL}"
 
 # Bucket Deployment of the course
@@ -27,12 +27,12 @@ COURSE_ABBREV = 'SE'
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
   first_day: "aug-26-2021",
   weekdays: [:tuesday, :thursday],
-  start_times: ["11:30", "11:30"],
-  end_times: ["13:00", "13:00"],
+  start_times: ["10:00", "10:00"],
+  end_times: ["11:30", "11:30"],
   number: 27,
-  skips: [],
-  start_time: "12:00",
-  end_time: "13:30"
+  skips: ['sep-7-2021'],
+  start_time: "10:00",
+  end_time: "11:30"
 )
 
 # Section_config defines the structure of the course.
@@ -77,10 +77,9 @@ SECRET_PAGE = "/content/extras/secret.md.erb"
 #   %w[HOME /content/index.md]
 #   %w[TOC /content/course_toc.md]
 MENULINKS = [%w[lectures /content/intro/10_coursetoc.md/],
-            %w[homeworks /content/intro/40_weeks.md/],
-            %w[latte https://moodle2.brandeis.edu/course/view.php?id=24507],
-            %w[examples http://pitosalas.github.io/brandeisprojects/]].freeze
-
+             %w[examples http://pitosalas.github.io/brandeisprojects/],
+             %w[latte https://moodle2.brandeis.edu/course/view.php?id=24507],
+             %w[gradescope https://www.gradescope.com/courses/285232]].freeze
 # Helpful_box provides a feedback box on the sidebar.
 #
 # DO NOT USE. This is currently not functional.
