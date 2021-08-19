@@ -27,3 +27,5 @@
 * What is a session
 * What is a primary key
 * WHat is a foreign key
+* What is Heroku
+* Why do we need database migrations
