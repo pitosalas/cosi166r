@@ -4,23 +4,24 @@ desc: Projects really start. Discuss the plan of attack and the roadmap
 cat: prod
 slides: true
 ---
-:h2 Logistics (20 minutes)
+:h2 Logistics
 
 * Realize that "lecture notes" are all here for you, whether I use slides or not!
 * Checkin questions
 
-:slide_title HTTP and Web Servers - 25 Minutes
+:slide_title HTTP and Web Servers
 
-* :topic_link how_web_servers_work
-* :topic_link http
+* :topic_link :how_web_servers_work
+* :topic_link :http
+
 * Breakout: as a team figure out whether you understand
   1. http as a request-response protocol
   1. what the demonstration with telnet actually means
   1. Follow the discussion wherever it leads
 
-:slide_title Term Project (10 minutes) (25 minutes)
+:slide_title Term Project
 
-* Instead of a final, this course will have a Showcase day where everyone presents and demos their products
+* At the end of the semester,  will have a product showcase day where everyone presents and demos their products
 * You will need to plan out what you want to have working on that day
   * Think of this as the absolute minimum demo of your product that you want to have working by the product showcase.
   * What is the essential coolness of your product? Can you demo that?

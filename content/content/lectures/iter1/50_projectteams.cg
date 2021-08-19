@@ -4,18 +4,18 @@ desc: Explore how best to succeed on a team, and then start choosing products to
 cat: prod
 slides: true
 ---
-:h2 Logistics (15 Minutes)
+:h2 Logistics
 
 * Late submissions
-* Checkin Questions
 * Discuss :topic_link :pa_movies_1
+* Homework discussion - Questions from Chapter 1 and 2
 * Burning questions about anything at all?
 
-:slide_title Working on Teams (40 minutes)
+:slide_title Working on Teams
 
-<%= include_topic :working_in_teams %>
+:topic_include :working_in_teams
 
-:slide_title First Round Product Picks (30 minutes)
+:slide_bigtitle First Round Product Picks (30 minutes)
 
 * We review the top product ideas and discuss them with the whole class
 * Students get a chance to pitch their idea to be kept, added or deleted from the list

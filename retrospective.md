@@ -90,3 +90,30 @@ http://cosi166b-s2017.s3-website-us-west-2.amazonaws.com/content/lectures/iter3/
 - Lab session is too long; would prefer 3 smaller lab sessions
 - Would like a walk through of PA Rails 2 solution
 - Need more live coding
+
+From Midsemester:
+
+
+* Checkin Questions....
+
+$$SLIDE_TITLE Major findings and changes because of feedback
+
+* Findings
+  1. Ruby on Rails Tutorials are loved loved loved!
+  1. TAs are super responsive over slack
+  1. You appreciate the breaks and videos during break
+  1. You like live coding during class and during lab
+  1. You learned a lot from the PAs
+
+* Needs Improvement
+  1. Hard to keep up with homework and it takes too much juggling
+  1. You would like more code walkthroughs, live coding and guided labs
+  1. You would like more in-class time for group work, exercises
+  1. People with Windows have had a disproportionate amount of challenges
+
+* Changes because of feedback
+  1. Pruning of homeworks, extra time on PA Rails 1
+  1. Reminder that all class content is on the web site as text and slides
+
+:slide_title Continue and Review from last week
+

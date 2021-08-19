@@ -1,20 +1,15 @@
 ---
 title: Models and ActiveRecord
 desc: Intro to Models and Object Relational Mapping
-hwref: week5
 cat: rails
 slides: true
 ---
 
-## Welcome (10 minutes)
+:h2 Welcome
 
-* Mitchell has some announcements
-* Student Evaluations of the class - in Latte
 * Review of Tables, Columns, Databases, Keys, Foreign, and Associations
 
-$$SLIDE_BREAK
-
-$$SLIDE_TITLE Exercise (15 minutes)
+:slide_title Exercise
 
 * Team up with one other person (random assignment)
 * Using what you know about Twitter, propose a data model
@@ -22,7 +17,7 @@ $$SLIDE_TITLE Exercise (15 minutes)
 * Focus on 4 or 5 tables at most
 * 15 Minutes, ask questions 
 
-$$SLIDE_TITLE Steps
+:slide_title Steps
 
 1. What are the entities?
 1. Is something contained in something else?
@@ -32,7 +27,7 @@ $$SLIDE_TITLE Steps
 1. Possibly identify other entities
 1. Repeat until done
 
-$$SLIDE_TITLE Relational Databases and Object Oriented Software (10 minutes)
+:slide_title Relational Databases and Object Oriented Software (10 minutes)
 
 * What does an ORM do?
 * "Impedance mismatch"
@@ -43,12 +38,10 @@ $$SLIDE_TITLE Relational Databases and Object Oriented Software (10 minutes)
 * What is the relationship between the underlying DB and the AR objects
 * What is database Migration. What problem does it solve?
 
-$$SLIDE_TITLE Introduction to ActiveRecord programming (40 minutes)
+:slide_title Introduction to ActiveRecord programming (40 minutes)
 
-<%= include_topic :models %>
+:topic_include :models
 
-$$SLIDE_BREAK
+:topic_include :intro_activerecord
 
-$$TOPIC_INCLUDE :intro_activerecord
-
-$$LECTURE_END
+:lecture_end
