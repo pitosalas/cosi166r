@@ -1,7 +1,7 @@
 ---
 title: Cosi 166b Grading
 ---
-<%= include_topic :general_grading_gradescope %>
+:topic_include :general_grading_gradescope
 
 ### General Rubric
 
