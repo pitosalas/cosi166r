@@ -24,7 +24,18 @@ slides: true
 
 :slide_title Discuss Pre-work
 
-* How far did you get in the :section_link :intro, :required_preparation
+* How far did you get in the :topic_link :cosi166b_required_prep
 * What's cool about Ruby? What don't you like?
+
+:slide_title Logistics
+
+* Here are the :topic_link :books_cosi166
+* Here are the :topic_link :goals_cosi166
+* Let's take a quick look at: 
+
+  1. [This web site](http://cosi166b.s3-website-us-west-2.amazonaws.com)
+  1. [Gradescope has all the assignments](https://www.gradescope.com/courses/285232)
+  1. [Our course Slack channel](brandeiscapstone2021.slack.com)
+  1. [Latte for this course](https://moodle2.brandeis.edu/course/view.php?id=24507)
 
 :lecture_end
