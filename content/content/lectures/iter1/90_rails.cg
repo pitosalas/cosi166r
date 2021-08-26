@@ -1,15 +1,14 @@
 ---
-title: Database Design
-desc: Applied DB Design, Schemas, SQL
+title: Rails
+desc: Learn about how Rails is put together and how it works.
+cat: rails
 slides: true
-cat: db
 ---
 :h2 Welcome
 
-* Checkin Questions
-* Review of the stages and deliverables: :section_link :intro :term_project
+* Review of the stages and deliverables: :section_link :intro, :term_project
 
-:slide_title Rails Points of interest
+:slide_bigtitle Rails Points of interest
 
 * So what is Rails, really? It's a library of Ruby code, that's all
 * Decode them ("routing")
@@ -26,9 +25,3 @@ cat: db
 :slide_break
 
 :topic_include :mvc_review
-
-:slide_title Data Modeling Background
-
-:topic_include :data_modeling
-
-:lecture_end

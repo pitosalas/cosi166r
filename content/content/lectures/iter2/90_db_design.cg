@@ -1,0 +1,11 @@
+---
+title: Database Design
+desc: Applied DB Design, Schemas, SQL
+slides: true
+cat: db
+---
+:slide_title Data Modeling Background
+
+:topic_include :data_modeling
+
+:lecture_end
