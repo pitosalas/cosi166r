@@ -7,13 +7,13 @@ Each stage has an outline, a set of learning goals and a set of deliverables. Th
 
 ## Stages
 
-1. :topic_link cosi166_project_stage1 where we make basic decisions about the project, get our environments and tools setup and organized. 
+1. :topic_link :cosi166_project_stage1 where we make basic decisions about the project, get our environments and tools setup and organized.
 
-1. :topic_link cosi166_project_stage2 where we make the most minimal rails app and make sure we understand how the pieces connect together. 
+1. :topic_link :cosi166_project_stage2 where we make the most minimal rails app and make sure we understand how the pieces connect together. 
 
-1. :topic_link cosi166_project_stage3 where we build the heart of the product and the basic functionality.
+1. :topic_link :cosi166_project_stage3 where we build the heart of the product and the basic functionality.
 
-1. :topic_link cosi166_project_stage4 where we add advanced capabilities, stabilize and make it pretty
+1. :topic_link :cosi166_project_stage4 where we add advanced capabilities, stabilize and make it pretty
 
-1. :topic_link cosi166_final_deliverables %> where we complete the set of deliverables and declare SUCCESS!
+1. :topic_link :cosi166_final_deliverables where we complete the set of deliverables and declare SUCCESS!
 
