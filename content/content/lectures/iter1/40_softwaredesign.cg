@@ -7,13 +7,11 @@ cat: ruby
 :h2 Logistics (10 minutes)
 
 * Checkin questions
-* Any burning questions
+* Look at :topic_link :pa_movies_1 (due in 1 week)
 
 :topic_include :class_team_norms
 
 :slide_title Basic Ruby and Shell Quiz (25 minutes)
-
-* Please do it now: [Basic Ruby and Shell Quiz](https://moodle2.brandeis.edu/mod/quiz/view.php?id=1601424)
 
 :slide_bigtitle Software Design and Object Oriented Design
 

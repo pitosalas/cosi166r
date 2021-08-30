@@ -5,6 +5,9 @@ cat: ruby
 slides: true
 
 ---
+:h2 Logistics
+
+* Note brief Ruby and Shell quiz in class on Thursday
 
 :slide_title Product Brainstorm 30 minutes
 
@@ -14,6 +17,7 @@ slides: true
 * Discuss your favorite product that you proposed or some other student proposed
 * Prepare to explain it to the class in about 1 minute, so not a lot of detail
 * Each group presents one product
+* Add it to the [Product Ideas List in Latte](https://moodle2.brandeis.edu/mod/forum/view.php?id=1938081)
 
 :slide_title Projects and teams
 
@@ -29,12 +33,6 @@ slides: true
 * Just because you proposed it doesn't mean that another team can't use it too; and just because you proposed it doesn't mean that your teammates have to let you make all the decisions
 * Here's a [quick survey](https://forms.gle/3hkjVwV8Q6XU9Hc28) to collect information regarding your team preferences: https://forms.gle/3hkjVwV8Q6XU9Hc28
 
-:slide_title Handy demo files
-
-* :topic_link :ruby_intro_tut
-* :topic_link :classes_tut
-* :topic_link :inheritance_tut
-
 :slide_title Ruby Similarity and differences
 
 * No public static main
@@ -45,5 +43,10 @@ slides: true
 * `ruby filename.rb`
 * `irb` - REPL
 
+:slide_title Handy demo files
+
+* :topic_link :ruby_intro_tut
+* :topic_link :classes_tut
+* :topic_link :inheritance_tut
 
 :lecture_end
