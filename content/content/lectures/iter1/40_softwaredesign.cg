@@ -5,8 +5,6 @@ slides: true
 cat: ruby
 ---
 :h2 Logistics (10 minutes)
-
-* Checkin questions
 * Look at :topic_link :pa_movies_1 (due in 1 week)
 
 :topic_include :class_team_norms
