@@ -12,14 +12,6 @@ compile '/extras/**/*' do
   nil
 end
 
-compile '/content/topics/robotcode/**/*' do
-  nil
-end
-
-compile '/content/scripts/**/*' do
-  nil
-end
-
 compile '/**/*.ical.erb' do
   filter :erb
 end
@@ -65,7 +57,6 @@ compile '/**/*.cg', rep: :slides do
     nil
   end
 end
-
 
 compile '/**/*' do
   if item.binary? || item[:status] == "hidden"

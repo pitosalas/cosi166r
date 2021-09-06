@@ -11,12 +11,8 @@ cat: ruby
 
 :slide_title Basic Ruby and Shell Quiz (25 minutes)
 
-:slide_bigtitle Software Design and Object Oriented Design
+:slide_bigtitle Software Design 
 
 :topic_include :good_programming
-
-:slide_bigtitle Programming Style
-
-:topic_include :programming_style
 
 :lecture_end

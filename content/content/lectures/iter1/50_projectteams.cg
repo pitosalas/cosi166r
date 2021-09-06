@@ -6,10 +6,13 @@ slides: true
 ---
 :h2 Logistics
 
-* Discuss :topic_link :pa_movies_1
-* Burning questions about anything at all?
+* Continuing from last week
 
-:slide_title Working on Teams
+:slide_bigtitle Programming Style
+
+:topic_include :programming_style
+
+:slide_bigtitle Working on Teams
 
 :topic_include :working_in_teams
 
