@@ -9,15 +9,9 @@ slides: true
 * Realize that "lecture notes" are all here for you, whether I use slides or not!
 * Checkin questions
 
-:slide_title HTTP and Web Servers
+:slide_bigtitle Working on Teams
 
-* :topic_link :how_web_servers_work
-* :topic_link :http
-
-* Breakout: as a team figure out whether you understand
-  1. http as a request-response protocol
-  1. what the demonstration with telnet actually means
-  1. Follow the discussion wherever it leads
+:topic_include :working_in_teams
 
 :slide_title Term Project
 
