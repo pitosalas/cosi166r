@@ -6,6 +6,9 @@ slides: true
 ---
 :h2 Logistics
 
+* Please note that the Ruby on Rails tutorial is written as if you were using cloud9
+* It is almost identical, but you are working on the shell on your local machine
+* You should not have trouble but if you do, either post on slack or google StackOverflow
 * Continuing from last week
 
 :slide_bigtitle Programming Style
