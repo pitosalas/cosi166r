@@ -4,12 +4,16 @@ desc: Continue with programming style; also teams discuss products
 cat: prod
 slides: true
 ---
-:h2 Logistics
+:h2 Homework for Tuesday (Sep 14)
 
-* Please note that the Ruby on Rails tutorial is written as if you were using cloud9
-* It is almost identical, but you are working on the shell on your local machine
-* You should not have trouble but if you do, either post on slack or google StackOverflow
-* Continuing from last week
+1. [RORT Chapter 2](https://www.railstutorial.org/book/toy_app)
+    * Please note that the Ruby on Rails tutorial is written as if you were using cloud9
+    * It is almost identical, but you are working on the shell on your local machine
+    * You should not have trouble but if you do, either post on Slack or google or StackOverflow
+2. Team Product Proposal
+    * Make sure you make time to meet with your teammates come together
+    * The proposal itself doesn't have to be long but the discussion that leads to it is important!
+3. Continuing from last week
 
 :slide_bigtitle Programming Style
 
