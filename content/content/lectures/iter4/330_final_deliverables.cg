@@ -1,7 +1,6 @@
 ---
 title: Last Day!
 desc: Each team does a dry run of their Demo/Presentations
-hwref: week14
 slides: true
 ---
 :h2 Logistics
@@ -13,7 +12,7 @@ slides: true
 
 :slide_title In class GRAND DEMOS!
 
-* Each team will get 4 minutes to present, with 1 minute for one of their peers to ask a question. Each team is hardcapped at 5 minutes. 
+* Each team will get 4 minutes to present, with 1 minute for one of their peers to ask a question. Each team is hard capped at 5 minutes. 
 * The TA will act as a timekeeper, giving you a 3, 2, and 1 minute visual que and will stop you mid sentence if you go over as we have 11 teams total.
 * This is not a formal presentation with a slide deck and introductions of the team needed.
 * You should introduce your app and give us a quick demo. Show us the cool stuff. You don’t need to show us everything!
@@ -22,7 +21,7 @@ slides: true
 
 :slide_title Details on final deliverables for the course
 
-* Here are the details of what the deliverables should contain (by the showcase): :topic_link :cosi166_final_deliverables
+* Here are the details of what the deliverables should contain (by the showcase): :topic_link :hw_166_final_deliverables
 * All deliverables due on the day of your Zoom meeting with Pito and the TA
 * Between that time and when you demo you can submit a "delta" . 
 * So if you fixed a bug, got something to work that wasn't, or cleaned up some code or text we will accept a supplementary submission IF you declare it officially.

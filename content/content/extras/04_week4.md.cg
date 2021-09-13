@@ -32,7 +32,7 @@ Each team (and all team members) meet for at  1-2 hours to discuss and decide on
 * Discuss and decide the product you want to build. It's ok to change things around so everyone is satisfied.
 * Continue refining your idea and trying to make sure you are all in agreement on the direction.
 * Consider what interests the team most about this product.
-* What is "Hello World" functionality you want? (You can also refer to <%= link_to_topic :cosi166_project_stage1 %> for some further background details.)
+* What is "Hello World" functionality you want? (You can also refer to :topic_link :hw_166_project_stage1 for some further background details.)
 
 <%= team_deliverable "Summary of the result of the meeting." %>
 
