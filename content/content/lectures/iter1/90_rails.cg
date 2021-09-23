@@ -7,8 +7,10 @@ slides: true
 :h2 Welcome
 
 * Review of the stages and deliverables: :section_link :intro, :term_project
+* Each team come to the board and write your current product and 3 bullets
+* We look them over together
 
-:slide_bigtitle Rails Points of interest
+:slide_bigtitle Rails -- FINALLY!
 
 * So what is Rails, really? It's a library of Ruby code, that's all
 * Decode them ("routing")
@@ -22,6 +24,8 @@ slides: true
   * Views
   * Controllers
 
-:slide_break
+:slide_bigtitle Welcome to MVC!
 
 :topic_include :mvc_review
+
+:lecture_end 
