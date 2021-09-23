@@ -11,7 +11,11 @@ slides: true
 
 :slide_bigtitle Working on Teams
 
-:topic_include :working_in_teams
+* :topic_link :working_in_teams
+* :topic_link :working_in_teams_key_challenges
+* :topic_link :conflict
+* :topic_link :meetings
+* Let's take a look at :topic_link :mini_scrum
 
 :slide_title Term Project
 
@@ -29,15 +33,5 @@ slides: true
   * Divide and conquer! Make sure each team member has a distinct deliverable!
   * Dig into the difficult things - don't avoid them in favor of the easy things!
 * One of the principles of Agile development is to have running code as soon as possible and all the time
-* Let's take a look at :topic_link mini_scrum
-
-:slide_title Breakout with your team
-
-* Notice the new tab, `teams` in the [product ideas list](https://docs.google.com/spreadsheets/d/1XHJ_izM80OkmTaVc0K4PV1CyhzD_5Urbw62M_V_kwKg/edit#gid=1894526136)
-* Add or use a row for your team, give it a name, and place the team members' emails in the columns
-* Create your Trello for your team and set up the columns as I suggest above
-* Discuss with your team and then on slack with the rest of the class and try to arrive at a product choice
-* There's also room for a backup product choice
-* The person who first proposed the idea has priority if their team choses that idea
 
 :lecture_end
