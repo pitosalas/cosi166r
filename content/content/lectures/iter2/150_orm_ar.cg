@@ -1,11 +1,10 @@
 ---
-title: Implementing the Database
-desc: Data modeling and designing database schemas 
+title: Object Relational Model
+desc: More about ActiveRecord 
 slides: true
 cat: db
 ---
 :h2 Logistics
-* Checkin Questions
 
 :topic_include :intro_activerecord
 

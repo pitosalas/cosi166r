@@ -27,7 +27,7 @@ slides: true
 1. Possibly identify other entities
 1. Repeat until done
 
-:slide_title Relational Databases and Object Oriented Software (10 minutes)
+:slide_title Relational Databases and Object Oriented Software
 
 * What does an ORM do?
 * "Impedance mismatch"
@@ -38,10 +38,8 @@ slides: true
 * What is the relationship between the underlying DB and the AR objects
 * What is database Migration. What problem does it solve?
 
-:slide_title Introduction to ActiveRecord programming (40 minutes)
+:slide_bigtitle Introduction to ActiveRecord programming
 
 :topic_include :models
-
-:topic_include :intro_activerecord
 
 :lecture_end
