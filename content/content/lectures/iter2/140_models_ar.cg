@@ -8,8 +8,10 @@ slides: true
 :h2 Welcome
 
 * Review of Tables, Columns, Databases, Keys, Foreign, and Associations
+* Reminder: Please keep Slack running so you can receive important updates
 
-:slide_title Exercise
+
+:slide_bigtitle Data Modeling
 
 * Team up with one other person (random assignment)
 * Using what you know about Twitter, propose a data model
@@ -23,11 +25,11 @@ slides: true
 1. Is something contained in something else?
 1. How many X's are there for each Y?
 1. What kinds of facts do we need to know about each entity?
-1. What are the datatypes of those facts? Are there any 'arrays'?
+1. What are the data  stypes of those facts? Are there any 'arrays'?
 1. Possibly identify other entities
 1. Repeat until done
 
-:slide_title Relational Databases and Object Oriented Software
+:slide_bigtitle Relational Databases and Object Oriented Software
 
 * What does an ORM do?
 * "Impedance mismatch"

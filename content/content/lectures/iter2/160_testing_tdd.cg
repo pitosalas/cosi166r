@@ -1,7 +1,6 @@
 ---
 title: Test Driven Development
 desc: How to think about Testing and why it is important
-hwref: week11
 cat: testing
 slides: true
 ---
@@ -11,7 +10,7 @@ slides: true
 
 :slide_title Term Projects Discussion
 
-* Review of key dates: :section_link :intro :term_project
+* Review of key dates: :section_link :intro, :term_project
 * Let's take a look at previous year's: [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
 * What will it take to have a great term project?
   1. Look closely at :topic_link :hw_166_project_stage4 and :topic_link :hw_166_final_deliverables
