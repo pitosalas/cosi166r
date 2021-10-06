@@ -9,7 +9,7 @@ It's an interesting view into the real world impact that bugs have. Also that Fi
 
 :deliverable None
 
-:h2 2. Learn all about Test Driven Development :zipbadge
+:h2 2. DONE Learn all about Test Driven Development :zipbadge
 
 Please look over **all** the linked resources: [RailsGirls Guide to Test Driven Development](http://guides.railsgirls.com/test-driven-development), [Rails Guide for Testing](https://edgeguides.rubyonrails.org/testing.html), Read [Minitest Quick Reference](http://mattsears.com/articles/2011/12/10/minitest-quick-reference), [MiniTest::Spec tutorial](http://www.rubyinside.com/a-minitestspec-tutorial-elegant-spec-style-testing-that-comes-with-ruby-5354.html). Do the following assignment: <%= link_to_topic :hw_tdd %>
 
