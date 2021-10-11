@@ -1,5 +1,5 @@
 ---
-title: Test Driven Development
+title: Testing
 desc: How to think about Testing and why it is important
 cat: testing
 slides: true
@@ -10,7 +10,6 @@ slides: true
 
 :slide_title Term Projects Discussion
 
-* Review of key dates: :section_link :intro, :term_project
 * Let's take a look at previous year's: [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
 * What will it take to have a great term project?
   1. Look closely at :topic_link :hw_166_project_stage4 and :topic_link :hw_166_final_deliverables
@@ -18,9 +17,7 @@ slides: true
   1. Make sure you have 100% alignment with what specifically each team member is working on
   1. Invest the time!
 
-:slide_title Advice from last year's Cosi166 Students 
-
-**(I really asked them over the weekend what tips they had for Cosi166b Success!)**
+:slide_title Advice from previous years's Cosi166 Students 
 
 :h4 Communication
 
