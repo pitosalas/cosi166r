@@ -4,10 +4,6 @@ desc: We continue on TDD from the previous class
 cat: testing
 slides: true
 ---
-:h2 Logistics
-* Checkin questions
-* Any other discussion, feedback, or funny story?
-
 :slide_title Going deeper on testing Continued
 
 * :topic_link :testing_pyramid
@@ -25,4 +21,4 @@ slides: true
 * Look at :topic_link :poro_service_objects
 
 
-:lecture_end
+:lecture_end`
