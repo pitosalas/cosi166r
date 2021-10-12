@@ -1,14 +1,15 @@
 ---
-title: Testing Continued
+title: Testing 2
 desc: We continue on TDD from the previous class
 cat: testing
 slides: true
 ---
-:slide_title Going deeper on testing Continued
+:slide_bigtitle Going deeper on testing Continued
 
-* :topic_link :testing_pyramid
-* :topic_link :testing_reasons
-* :topic_link :mocking
+:topic_include :mocking
+
+:slide_bigtitle Data and examples
+
 * :topic_link :testing_data
 * :topic_link :testing_in_rails
 * :topic_link :hands_on_rails_test

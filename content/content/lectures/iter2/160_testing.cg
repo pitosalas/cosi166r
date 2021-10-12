@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Testing 1
 desc: How to think about Testing and why it is important
 cat: testing
 slides: true
@@ -64,5 +64,11 @@ slides: true
 * There are a huge variety of tools and techniques to avoid repetitious coding
 * We will be using the built-in unit testing framework called "minitest"
 * For this course focus ONLY on unit testing
+
+:slide_bigtitle Going deeper
+
+:topic_include :testing_pyramid
+:topic_include :testing_reasons
+
 
 :lecture_end
