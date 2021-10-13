@@ -4,6 +4,25 @@ desc: We continue on TDD from the previous class
 cat: testing
 slides: true
 ---
+:h3 Your feedback, you want MORE ....
+* Tutorials, in class examples, practical coding examples, more hands on exercises, 
+* Tips on how to debug, search for keywords when stuck, tutorials that are specific to what we will be using, conceptual lessons about how the internet works (2x)
+* Dedicated time to work on group projects
+* Lecturing on the chalkboard,More structure/methodology to make sure we got the foundations down
+* What does "did not go above and beyond" mean? Clearer instructions on assignments
+* Freedom to pick other language than Ruby
+* Please record lectures and labs (already happening)
+
+:slide_title Your feedback, you want LESS...
+* Redundant examples, i.e. stuff already available in book or course web site
+* Fewer individual PAs because group work reinforces material more
+* Less live coding, teach slower or have more notes for content of class
+* Less Ruby (same person :)
+* Stop with ActiveRecord already (agreed!)
+
+:slide_title Your feedback, this is OK...
+* live coding examples (3x), lecturing with examples, group assignments
+
 :slide_bigtitle Going deeper on testing Continued
 
 :topic_include :mocking
