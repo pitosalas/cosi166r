@@ -1,0 +1,16 @@
+---
+title: Forms and Views
+desc: Client and Server interplay for forms and database update
+hwref: week10
+slides: true
+cat: rails
+---
+:h2 How Forms Work
+
+:topic_include :how_forms_view_work
+
+:slide_title If you want to experiment, here's a script
+
+* Demo: :topic_link :hands_on_forms_demo
+
+:lecture_end
