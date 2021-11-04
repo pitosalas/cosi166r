@@ -4,7 +4,7 @@ lectref: responsive responsive_cont
 due: 4/19/20
 ---
 
-:h2 1. Read [Ruby on Rails Tutorial](https://www.railstutorial.org/book/beginning##cha-beginning) Chapter 10 :partbadge
+DONE :h2 1. Read [Ruby on Rails Tutorial](https://www.railstutorial.org/book/beginning##cha-beginning) Chapter 10 :partbadge
 
 **YES: We skipped a chapter.** In this chapter we continue developing the big example, by adding logic to update users. Now we gradually move from authentication to authorization, which in a way is much simpler. As usual I really encourage and ask you to go through the code samples and actually type them in. You will see that it really helps your understanding and will assure your success in this course! Use your resources: the TAs, the class mailing list, stack overflow, google and push through to success! When you are done, go to Latte and answer these warmup questions:
 
@@ -15,7 +15,7 @@ due: 4/19/20
 
 :deliverable Submit your answers as a pdf to latte.
 
-:h2 2. Learn about Stimulus Reflex :zipbadge
+:h2 2. LDONEearn about Stimulus Reflex :zipbadge
 
 * Read and understand Stimulus Reflex and Websockets. This is the offical [Stimulus Reflex Documentation](https://docs.stimulusreflex.com/). And here's a [tutorial](https://www.youtube.com/watch?v=F5hA79vKE_E&feature=emb_title). Answer these warmup questions please:
   1. What is a way that you could use Stimulus Reflex in your product?
@@ -24,7 +24,7 @@ due: 4/19/20
 
 :deliverable Follow along with the tutorial and upload your zipped code. Also answer the warmup questions in your README.md file.
 
-:h2 3. Weekly Progress Updates :partbadge :pdfbadge :teambadge
+DONE :h2 3. Weekly Progress Updates :partbadge :pdfbadge :teambadge
 
 Follow these instructions, :topic_link :weekly_progress_updates to prepare your status report.
 
