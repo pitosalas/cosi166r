@@ -6,18 +6,14 @@ slides: true
 ---
 :h2 Logistics
 
-* Check in questions
-* [Less Of](https://moodle2.brandeis.edu/mod/hotquestion/view.php?id=1652407) / [More of](https://moodle2.brandeis.edu/mod/hotquestion/view.php?id=1652408s)
-* Do you want to TA this course next year (if you are still at Brandeis :)
-
 :slide_title Text Based formats / languages
 
 * XML - granddaddy of them all
-* HTML - Hypertext Markup Language (HAML)
+* HTML - Hypertext Markup Language
 * ERB - Embedded Ruby
 * JSON - Javascript Object Notation (YAML)
 * CSS - Cascading style sheets (SASS, SCSS, LESS)
-* Javascript - Also known as ECMAScript and EC6
+* Javascript - Also known as ECMAScript and EC6. Typescript is a superset of Javascript.
 
 * They are all like little programming languages
   1. Syntax checking and syntax errors
