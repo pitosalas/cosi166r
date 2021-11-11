@@ -1,15 +1,9 @@
 ---
-title: Responsive UI, Continued
+title: Responsive UI 2
 desc: Applying Ajax and Responsive UI concepts
 cat: advanced
 slides: true
 ---
-:h2 Logistics
-
-:slide_title What to do in the remaining weeks
-
-:image :2021endofsemprefs
-
 :slide_title Javascript Frameworks & Libraries
 
 :h4 Single Page Web Applications (SPAs) vs. Traditional Applications

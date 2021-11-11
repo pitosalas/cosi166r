@@ -1,0 +1,17 @@
+---
+title: CSS in the wild
+desc: More in depth introduction to CSS and it's role in web based applications.
+cat: rails
+slides: true
+---
+
+:h2 Continuing from last class
+
+* :topic_link :erb
+* :topic_link :json
+
+:topic_include :css
+
+:topic_include :bootstrap
+
+:lecture_end
