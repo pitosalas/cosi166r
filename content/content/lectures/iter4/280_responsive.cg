@@ -6,18 +6,16 @@ slides: true
 ---
 :h2 Logistics
 
-* Checkin questions!
-
 :topic_include :ajax
 
-:slide_subtitle Usual process in web server
+:slide_bigtitle Behind the scenes
 
 * Browser issues an HTTP Request
 * Server responds by running action, which generates html
 * HTML is used for the response to the browser
 * Browser displays it
 
-:slide_subtitle Ajax process
+:slide_title Ajax process
 
 * Browser issues an HTTP request
 * Request is issued for remote processing
@@ -27,7 +25,7 @@ slides: true
 * Returned to the browser
 * Browser executes it
 
-:slide_subtitle Javascript processing
+:slide_title Javascript processing
 
 * JS is a general purpose language
 * Browser exposes the DOM as `document.`
@@ -35,7 +33,6 @@ slides: true
 
 :slide_title Forms Review
 
-* The default with form_with is **local: true**
 * Think about what the submit button does:
   * for **local:true**, it does a post or patch, requesting .html response
   * for **local:false**, it does a post or patch, requesting .js response
@@ -56,7 +53,7 @@ slides: true
 * Key techniques are:
   * Periodic background polling by browser
   * WebSockets and variants which maintain an open connection to server
-  * Rails 5 Action Cable
+  * Action Cable, Stimulus Reflect and others
 * Some links to study further:
   * New Service to support Pusher on a separate Service: [Pusher Service - free push](http://pusher.com)
   * How to use WebSockets on Heroku: [WebSockets on Heroku](https://devcenter.heroku.com/articles/ruby-websockets)
