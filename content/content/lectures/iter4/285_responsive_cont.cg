@@ -4,6 +4,18 @@ desc: Applying Ajax and Responsive UI concepts
 cat: advanced
 slides: true
 ---
+:h2 Logistics!
+
+* Demos of apps to classmates
+* Review plan for last day
+* Important to have
+    * Testing
+    * Poro
+    * It should work
+    * Deployed on cloud
+* Where are we right now?
+
+
 :slide_title Javascript Frameworks & Libraries
 
 :slide_title Single Page Web Applications (SPAs) vs. Traditional Applications
