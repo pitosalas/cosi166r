@@ -9,14 +9,12 @@ slides: true
 * Checkin Questions!
 * Review next week's homework
 
-:slide_bigtitle Key Topics 
+:topic_include :rest_web_services
 
-* :topic_link :rest_web_services
+:topic_include :rails_api
 
-* :topic_link :rails_api
+:topic_include :push_websockets
 
-* :topic_link :push_websockets
-
-* :topic_link :graphql
+:topic_include :graphql
 
 :lecture_end
