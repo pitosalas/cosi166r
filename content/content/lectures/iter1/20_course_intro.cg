@@ -7,7 +7,7 @@ slides: true
 ---
 :h2 Logistics
 
-* Note brief Ruby and Shell quiz in class on Thursday
+* Note brief Ruby and Shell quiz in class on Friday
 
 :slide_title Product Brainstorm 30 minutes
 
@@ -29,19 +29,19 @@ slides: true
 :slide_title Continued
 
 * You will start meeting together even before there are official team deliverables
-* No one "owns" the idea or the project. J
+* No one "owns" the idea or the project.
 * Just because you proposed it doesn't mean that another team can't use it too; and just because you proposed it doesn't mean that your teammates have to let you make all the decisions
-* Here's a [quick survey](https://forms.gle/3hkjVwV8Q6XU9Hc28) to collect information regarding your team preferences: https://forms.gle/3hkjVwV8Q6XU9Hc28
+* Here's a [quick survey](https://forms.gle/R88ZMm72TbZCpTNr9) to collect information regarding your team preferences:
 
 :slide_title Ruby Similarity and differences
 
 * No public static main
 * No compile step
 * Ruby versions
-* `gem`s
+* `gems`
 * `rbenv`
 * `ruby filename.rb`
-* `irb` - REPL
+* `irb`
 
 :slide_title Handy demo files
 

@@ -4,14 +4,7 @@ desc: Intro to course and how to succeed
 cat: general
 slides: true
 ---
-:h2 Welcome
-
-* What is it like for me to be teaching face to face again?
-* How does it feel to you all?
-* What will be different and what will be the same?
-* How should be do "breakouts" in person?
-
-:h2 Welcome, again!
+:h2 Welcome!
 
 * Introduce Pito, where I came from, and why I am excited about this course. Why do I do this? Look at: :topic_link :pitofaq.
 * Why do I think the content of this course is important?. Why might you find it important and useful?
@@ -31,11 +24,12 @@ slides: true
 
 * Here are the :topic_link :books_cosi166
 * Here are the :topic_link :goals_cosi166
-* Let's take a quick look at: 
 
-  1. [This web site](http://cosi166b.s3-website-us-west-2.amazonaws.com)
-  1. [Gradescope has all the assignments](https://www.gradescope.com/courses/285232)
-  1. [Our course Slack channel]()
-  1. [Latte for this course](https://moodle2.brandeis.edu/course/view.php?id=24507)
+:slide_title Let's take a quick look at: 
+
+1. [This web site](http://cosi166b.s3-website-us-west-2.amazonaws.com)
+1. [Gradescope has all the assignments](https://www.gradescope.com/courses/418766)
+1. [Our course Slack channel]()
+1. [Latte for this course](https://moodle2.brandeis.edu/course/view.php?id=28047)
 
 :lecture_end

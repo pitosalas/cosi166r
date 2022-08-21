@@ -31,6 +31,10 @@ slides: true
   * Everything from here on should be support that core view and nothing more!
   * Divide and conquer! Make sure each team member has a distinct deliverable!
   * Dig into the difficult things - don't avoid them in favor of the easy things!
-* One of the principles of Agile development is to have running code as soon as possible and all the time
+* Get serious about quality
+  * One of the principles of Agile development is to have running code as soon as possible and all the time
+  * Software that works beautifully only some of the time will not impress
+  * Develop a testing and quality mentality
+  
 
 :lecture_end
