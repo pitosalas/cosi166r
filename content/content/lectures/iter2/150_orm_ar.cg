@@ -1,5 +1,5 @@
 ---
-title: Object Relational Model
+title: Object Relational Mapper
 desc: More about ActiveRecord 
 slides: true
 cat: db

@@ -6,8 +6,6 @@ cat: advanced
 ---
 :h2 Logistics
 
-* Checkin Questions
-
 :topic_include :code_smells
 :topic_include :rails_smells
 :topic_include :refactoring
@@ -19,12 +17,3 @@ cat: advanced
 * Appreciate that software design is more than getting the right anwser and that there is a craft to it
 * Learn refactoring as an imwportant tool in your toolbox
 * Keep on growing and learning and practicing this craft
-
-:slide_bigtitle Lets look at some examples (thanks!)
-
-* In Mentorship
-  1. Migrations aren't working
-  1. Match.rb is super long
-  1. Matches controller has some wrong assumptions about state management
-
-

@@ -6,11 +6,9 @@ slides: true
 ---
 :h2 Logistics
 
-* Checkin Questions
-
 :slide_title Term Projects Discussion
 
-* Let's take a look at previous year's: [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
+* Let's take a look at previous years': [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
 * What will it take to have a great term project?
   1. Look closely at :topic_link :hw_166_project_stage4 and :topic_link :hw_166_final_deliverables
   1. Work in parallel with other team members
@@ -50,7 +48,7 @@ slides: true
 * If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
 
 
-:slide_title Introduction to Testing
+:slide_bigtitle Introduction to Testing
 
 :topic_include :testing_intro
 
