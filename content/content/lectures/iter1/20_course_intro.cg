@@ -1,6 +1,6 @@
 ---
-title: Brainstorming
-desc: We begin kicking around ideas and with the time left we look at Ruby together
+title: More intro and preparation
+desc: What makes a good 166 project?
 cat: ruby
 slides: true
 
@@ -9,19 +9,9 @@ slides: true
 
 * Note brief Ruby and Shell quiz in class on Friday
 * If you haven't done this yet, please do so now: [166b Fall 2022 Team Matching](https://forms.gle/AgJvjiS6BdV6YajM8)
-
+* Is everyone in Slack? Is everyone in Gradescope?
 
 :topic_include :good_166_product
-
-:slide_title Product Brainstorm 30 minutes
-
-* Random groups of 3-5 students in class - 30 minutes
-* Get to know each other a little. Introduce yourselves
-* Each student, in turn describes the product that they proposed
-* Discuss your favorite product that you proposed or some other student proposed
-* Prepare to explain it to the class in about 1 minute, so not a lot of detail
-* Each group presents one product
-* Add it to the Product Ideas challel in slack
 
 :slide_title Projects and teams
 
@@ -35,7 +25,11 @@ slides: true
 * You will start meeting together even before there are official team deliverables
 * No one "owns" the idea or the project.
 * Just because you proposed it doesn't mean that another team can't use it too; and just because you proposed it doesn't mean that your teammates have to let you make all the decisions
-* Here's a [quick survey](https://forms.gle/vPczqE5BJVNZRphu8) to collect information regarding your team preferences:
+* You will find out your teammates on Friday
+
+:slide_bigtitle Software Design 
+
+:topic_include :good_programming
 
 :slide_title Ruby Similarity and differences
 

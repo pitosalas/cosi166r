@@ -1,0 +1,23 @@
+---
+title: In Class Brainstorm
+desc: We begin the search for the product that you will build
+slides: true
+cat: ruby
+---
+:h2 Logistics (10 minutes)
+
+* Look at :topic_link :pa_movies_1 (due in 1 week)
+
+:slide_title Basic Ruby and Shell Quiz (25 minutes)
+
+:slide_title Product Brainstorm 30 minutes
+
+* Random groups of 3-5 students in class - 30 minutes
+* Get to know each other a little. Introduce yourselves
+* Each student, in turn describes the product that they proposed
+* Discuss your favorite product that you proposed or some other student proposed
+* Prepare to explain it to the class in about 1 minute, so not a lot of detail
+* Each group presents one product
+* Add it to the Product Ideas challel in slack
+
+:lecture_end
