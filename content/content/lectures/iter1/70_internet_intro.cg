@@ -11,6 +11,14 @@ cat: internet
 
 :slide_bigtitle Internet Basics
 
+* Big concepts to really understand today
+
+* Web clients and web servers
+* Network protocols
+* Tcp/ip: ip addresses, sockets, ports
+* http: request and response
+* http: verbs (GET, POST, PUT, etc)
+
 :topic_include :how_web_servers_work
 :topic_include :internet_basics
 :topic_include :http
