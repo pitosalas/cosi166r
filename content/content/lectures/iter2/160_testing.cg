@@ -1,43 +1,66 @@
 ---
-title: Testing 1
-desc: How to think about Testing and why it is important
+title: Developing Quality
+desc: Thinking broadly about quality
 cat: testing
 slides: true
 ---
 :h2 Logistics
 
-:slide_title Term Projects Discussion
+* :topic_link :successful_term_projects
 
-* Let's take a look at previous years': [Brandeis Cosi Projects](http://pitosalas.github.io/brandeisprojects/)
-* What will it take to have a great term project?
-  1. Look closely at :topic_link :hw_166_project_stage4 and :topic_link :hw_166_final_deliverables
-  1. Work in parallel with other team members
-  1. Make sure you have 100% alignment with what specifically each team member is working on
-  1. Invest the time!
+:slide_bigtitle Developing Quality Software
 
-:slide_title Advice from previous years' Cosi166 Students 
+* Why do people think this is important?
+* How do you define quality?
+* It's quite a lot more than testing
+* It's a set of processes and practices
+* Our undertanding of these are constantly evolving
+* The *devops* movement
 
-:h4 Communication
+:slide_title Best Practices
 
-* Always make sure team communication is effective, and overly communicate to your teammates about your progress/problems encountered to get help. 
-* At each meeting, each person should describe verbally what they did, what they're stuck on, and what they are going to do. 
-* Have a group chat going on whatever platform is most comfy for the group (they can figure that out in the first meeting too). Slack, discord, whatever, what matters is that everyone will remember to check it regularly.
-* Maybe find a time that works for everyone to stay on zoom and implement something together or do pair programming? 
+* Version control
+* Test Automation
+* Trunk based development
+* Continuous Integration
+* Deployment automation
+* Continuous delivery
+* Test Data Management
 
-:h4 Alignment
+:slide_title Version Control
 
-* Make sure you and your team are all on the same page. 
-* If they're not sure what they should be doing, that needs to be fixed asap or it gets awkward for everyone
-* That way things that need to get done get done and things aren't forgotten or overlooked.
+* Our use of git and github has us on the right path
+* Git is more than just a source code management system
+* It grew up with and around quality software processes
+* It touches many of the practices
+* Not just source code but "Configuration as code"
+* In Rails, look at config/environments/*.rb
 
-:h4 Scheduling
+:slide_title Test Automation
 
-* Don't wait till last minute, make a schedule of what needs to be done and stick with it (this has been reiterated probably thousands of times, but people tend to procrastinate.
-* Prioritize the necessary parts of the project first.
-* It is ok to fall behind the schedule once or twice but it's not great if you fall behind for more than two weeks)
-* Keep the functionalities simple and easy to implement in the beginning and well tested before you move on (don't wait to test in the end because everything is going to break at the same time, and it's hard to locate where the problem is)
-* Continuous Integration/Deployment is a crucial step in industry so it is important to setup and include this step from the beginning 
-* At each meeting, schedule the next one (preferably not at the very end of the meeting)
+* Two sides of the same coin
+* Writing tests, the right tests, and enough tests
+* Automating the running of tests, at the right time, and the right subset
+* In Rails, `rails test`, `minitest`, and many other building blocks
+
+:slide_title Trunk Based Development
+
+* Proper use of branches
+* Deciding when a branch should be created
+* Deciding that branches should be merged back within a day or so
+
+:slide_title Continuous Integration
+
+* Closely related
+* Integration here means combining changes from different developers
+* Continuously face up to merge conflicts
+* Don't let them fester
+
+:slide_title Deployment Automation
+
+:slide_title Continious Delivery
+
+:slide_title Test Data Management
 
 :slide_bigtitle Why Testing?
 
@@ -46,27 +69,5 @@ slides: true
 * Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
 * Knuth very famous, Emde Boas, not so much.
 * If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
-
-
-:slide_bigtitle Introduction to Testing
-
-:topic_include :testing_intro
-
-:slide_title Discussion
-
-* Let's take a look at: [Dumb Factorial Implementation](https://raw.githubusercontent.com/pitosalas/public_samples/master/ruby/tdd_demo0/dumb_factorial.rb)
-* What other tests can we do to test this Factorial class?
-
-:slide_title Tools
-
-* There are a huge variety of tools and techniques to avoid repetitious coding
-* We will be using the built-in unit testing framework called "minitest"
-* For this course focus ONLY on unit testing
-
-:slide_bigtitle Going deeper
-
-:topic_include :testing_pyramid
-:topic_include :testing_reasons
-
 
 :lecture_end
