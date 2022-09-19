@@ -7,15 +7,18 @@ slides: true
 :h2 Logistics
 * Attendance
 
-:slide_bigtitle Revoew Working on Teams
+:slide_bigtitle Working on Teams
 
-* :topic_link :working_in_teams
-* :topic_link :working_in_teams_key_challenges
+:topic_include :working_in_teams
+:topic_include :working_in_teams_key_challenges
+
 * :topic_link :conflict
 * :topic_link :meetings
-* Let's take a look at :topic_link :mini_scrum
 
-:slide_title Term Project
+
+:topic_include :mini_scrum
+
+:slide_bigtitle Term Project
 
 * At the end of the semester,  will have a product showcase day where everyone presents and demos their products
 * You will need to plan out what you want to have working on that day
