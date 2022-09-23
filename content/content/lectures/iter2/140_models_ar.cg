@@ -9,12 +9,14 @@ slides: true
 
 * Review of Tables, Columns, Databases, Keys, Foreign, and Associations
 * Reminder: Please keep Slack running so you can receive important updates
+* Attendance
+* Fast review of: [Chapter 5](https://www.learnenough.com/course/ruby_on_rails_tutorial_7th_edition/filling_in_the_layout_)
 
 
 :slide_bigtitle Data Modeling
 
-* Team up with one other person (random assignment)
-* Using what you know about Twitter, propose a data model
+* Teams sit together
+* Design a data model of your app
 * Start with for example the "tweets" table where all the tweets will be stored.
 * Focus on 4 or 5 tables at most
 * 15 Minutes, ask questions 
