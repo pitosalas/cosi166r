@@ -58,16 +58,16 @@ slides: true
 
 :slide_title Deployment Automation
 
+* What is deployment? How often is good enough?
+* What should trigger a deployment
+* A deployment pipeline
+* Role of code reviews in the deployment
+* Who can review code, what is reasonable for a review?
+
 :slide_title Continious Delivery
 
+* 
+
 :slide_title Test Data Management
-
-:slide_bigtitle Why Testing?
-
-:image :bewarebugs
-
-* Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
-* Knuth very famous, Emde Boas, not so much.
-* If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
 
 :lecture_end

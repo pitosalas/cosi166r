@@ -12,25 +12,6 @@ slides: true
 * Attendance
 * Fast review of: [Chapter 5](https://www.learnenough.com/course/ruby_on_rails_tutorial_7th_edition/filling_in_the_layout_)
 
-
-:slide_bigtitle Data Modeling
-
-* Teams sit together
-* Design a data model of your app
-* Start with for example the "tweets" table where all the tweets will be stored.
-* Focus on 4 or 5 tables at most
-* 15 Minutes, ask questions 
-
-:slide_title Steps
-
-1. What are the entities?
-1. Is something contained in something else?
-1. How many X's are there for each Y?
-1. What kinds of facts do we need to know about each entity?
-1. What are the data  stypes of those facts? Are there any 'arrays'?
-1. Possibly identify other entities
-1. Repeat until done
-
 :slide_bigtitle Relational Databases and Object Oriented Software
 
 * What does an ORM do?

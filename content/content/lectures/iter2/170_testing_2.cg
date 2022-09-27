@@ -1,9 +1,16 @@
 ---
-title: Testing 2
-desc: We continue on TDD from the previous class
+title: Hands On with Testing
+desc: We get more specific about different types of test
 cat: testing
 slides: true
 ---
+:slide_bigtitle Why Testing?
+
+:image :bewarebugs
+
+* Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
+* Knuth very famous, Emde Boas, not so much.
+* If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
 
 :slide_bigtitle Going deeper on testing Continued
 
