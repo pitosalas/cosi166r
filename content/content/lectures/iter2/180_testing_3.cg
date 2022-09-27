@@ -4,3 +4,11 @@ desc: How to connect  testing strategy to the development process
 cat: testing
 slides: true
 ---
+
+:slide_bigtitle Data and examples
+
+* :topic_link :mocking
+* :topic_link :testing_data
+* :topic_link :testing_in_rails
+* :topic_link :hands_on_rails_test
+

@@ -19,8 +19,10 @@ slides: true
 
 :slide_title Best Practices
 
+*I learned some of the ideas, structure and terminology from this book: [Accelerate - The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://amzn.to/3Chvvz7). If you are really interested in learning more, I would recommend it as a great resource.*
+
 * Version control
-* Test Automation
+* Automated Tests and Suites
 * Trunk based development
 * Continuous Integration
 * Deployment automation
@@ -36,7 +38,7 @@ slides: true
 * Not just source code but "Configuration as code"
 * In Rails, look at config/environments/*.rb
 
-:slide_title Test Automation
+:slide_title Automated test suites
 
 * Two sides of the same coin
 * Writing tests, the right tests, and enough tests
@@ -63,11 +65,18 @@ slides: true
 * A deployment pipeline
 * Role of code reviews in the deployment
 * Who can review code, what is reasonable for a review?
+* Do code reviews slow you down?
 
 :slide_title Continious Delivery
 
-* 
+* Next-level stuff
+* Combining all the elements above in a way that focuses on speed
+* Minimize time between committing new code and it's delivery to production
 
 :slide_title Test Data Management
+* A large suite of tests requires test data (or test fixtures)
+* Many forms of test data - sometimes in data files, in yaml files, in actual code
+* Certain kinds of changes in tests corresponding changes in the test data
+* The test data requires version control
 
 :lecture_end
