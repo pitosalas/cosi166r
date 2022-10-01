@@ -59,3 +59,62 @@ slides: true
   * How to use WebSockets on Heroku: [WebSockets on Heroku](https://devcenter.heroku.com/articles/ruby-websockets)
   * Rails Action Cable, [YouTube Demo of Rails 5 Action Cable](https://www.youtube.com/watch?v=n0WUjGkDFS0)
 * Look at FormsDemo for Pusher
+
+:slide_title Javascript Frameworks & Libraries
+
+:slide_title Single Page Web Applications (SPAs) vs. Traditional Applications
+
+* What's an SPA? An application which consists of a "single web page!"
+* See: Facebook, Gmail, Netflix and many others
+* Examples of SPAs packages you've probably heard of: React, Angular, Vue... many more
+* They are all "client side rendered". But a new option is "server side rendered"
+* Javascript is the lifeblood of many of these SPAs - you can not escape Javascript
+* Take a look at the table here: [Single Page Applications](https://www.monocubed.com/what-is-single-page-application/)
+* While SPAs are an important type of application, they are not the only place where a "responsive UI" is useful
+
+:slide_title How do they work?
+
+* Rather than call a controller/action to render some HTML, it renders HTML through one element.
+* Client side rendering
+    * Server is just an API service
+    * Full page does not reload
+    * Advantage: Supposed to have quicker and more seamless page transitions
+    * Disadvantages - not great for SEO, two totally different architectures and models
+* Server side rendering - Server generates html snippets which are spliced into DOM
+    * What is old is new again
+    * SEO
+
+:slide_title How to create a responsive UI
+
+:callout :small, "note", "It's not all or nothing!"
+
+1. Make it work well on different browser sizes
+1. Make it work well in a mobile browser
+1. Choose one simple interaction to work on, based on usability and aesthetics
+1. Make it work correctly without being responsive
+1. Choose the simplest technique and package that will do the job
+1. Experiment in a test project on the side
+1. Make the feature responsive
+1. Rinse and repeat
+
+:slide_title Stimulus.js and how it can help you!
+
+:callout :small, "Beware", "These packages are changing every day, they are complex and tricky to debug"
+
+* Why I give the advice I give
+* Stimulus JS - a Javascript library meant to augment (but not take over) your HTML
+* Create Javascript controllers/actions, listen for changes, update
+* [A basic demo](https://github.com/pitosalas/public_samples/tree/master/rails/stimulus_demo)
+* Hotwire - allows you to divide pages into components, and stream partial page updates using web-sockets
+* Stimulus Reflex - Much less new, alternative to SPAs, allows you to listen to changes streamed via CableReady (web-sockets) and more the application state
+
+:slide_title A friendly warning!
+
+* Do not invest in a framework unless you can list all of its use cases/applicability/disadvantages to your application
+* Lots of different frameworks do the same thing but in different ways, each with different advantages/disadvantages
+
+:slide_title Introducing Web Services
+
+* :topic_link :rest_web_services
+
+:lecture_end

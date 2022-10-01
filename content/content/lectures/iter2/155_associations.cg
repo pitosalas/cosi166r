@@ -1,0 +1,14 @@
+---
+title: Joins and associations
+desc: How to combine tables into more complex relationships
+slides: true
+cat: db
+---
+:h3 Logistics
+* Attendance
+* Feedback questionnaire
+
+:topic_include :ar_db_mechanics
+
+:topic_include :ar_important_methods
+

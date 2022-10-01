@@ -8,8 +8,4 @@ cat: db
 
 :topic_include :intro_activerecord
 
-:topic_include :ar_db_mechanics
-
-:topic_include :ar_important_methods
-
 :lecture_end
