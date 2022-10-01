@@ -5,7 +5,7 @@ cat: testing
 slides: true
 ---
 :h2 Logistics
-
+* Attendance
 * :topic_link :successful_term_projects
 
 :slide_bigtitle Developing Quality Software
@@ -23,11 +23,9 @@ slides: true
 
 * Version control
 * Automated Tests and Suites
-* Trunk based development
 * Continuous Integration
 * Deployment automation
 * Continuous delivery
-* Test Data Management
 
 :slide_title Version Control
 
@@ -35,8 +33,11 @@ slides: true
 * Git is more than just a source code management system
 * It grew up with and around quality software processes
 * It touches many of the practices
-* Not just source code but "Configuration as code"
-* In Rails, look at config/environments/*.rb
+* Not just source code but "Configuration as code" (In Rails, look at config/environments/*.rb)
+* Recommended Branching Structure (so called [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow))
+* Main Branch - what is running on Heroku
+* Develop Branch - Fully working merge from all devs
+* Feature Branches - Individual devs work, and merge to Develop **at least** once a week
 
 :slide_title Automated test suites
 
@@ -45,18 +46,12 @@ slides: true
 * Automating the running of tests, at the right time, and the right subset
 * In Rails, `rails test`, `minitest`, and many other building blocks
 
-:slide_title Trunk Based Development
-
-* Proper use of branches
-* Deciding when a branch should be created
-* Deciding that branches should be merged back within a day or so
-
 :slide_title Continuous Integration
 
-* Closely related
 * Integration here means combining changes from different developers
 * Continuously face up to merge conflicts
 * Don't let them fester
+* Set things up so whenever you merge with `develop` branch, the tests run automatically
 
 :slide_title Deployment Automation
 
@@ -66,6 +61,7 @@ slides: true
 * Role of code reviews in the deployment
 * Who can review code, what is reasonable for a review?
 * Do code reviews slow you down?
+* Set things up so whenbever you merge with `main`, tests are run, and the push to heroku occurs
 
 :slide_title Continious Delivery
 
@@ -73,10 +69,5 @@ slides: true
 * Combining all the elements above in a way that focuses on speed
 * Minimize time between committing new code and it's delivery to production
 
-:slide_title Test Data Management
-* A large suite of tests requires test data (or test fixtures)
-* Many forms of test data - sometimes in data files, in yaml files, in actual code
-* Certain kinds of changes in tests corresponding changes in the test data
-* The test data requires version control
 
 :lecture_end

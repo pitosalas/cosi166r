@@ -16,4 +16,21 @@ slides: true
 
 :topic_include :testing_reasons
 
+:slide_bigtitle Hands On With Rails Testing Code
+
+* Refer to [Testing Rails Applications](https://edgeguides.rubyonrails.org/testing.html)
+* Refer to [QuestionAnser Example Program](https://github.com/pitosalas/public_samples/tree/master/testing/questionanswer)
+
+:slide_title Demos from code
+
+1. Show the testing directories, and explain rails environments
+1. [Review all the assertions, briefly](https://edgeguides.rubyonrails.org/testing.html#available-assertions)
+1. Discuss the [Test Database](https://edgeguides.rubyonrails.org/testing.html#the-test-database)
+1. Discuss `/lib`, POROS and testing of POROS
+1. Discuss Models, associations and routes 
+1. Run the system tests and discuss [System Testing](https://edgeguides.rubyonrails.org/testing.html#system-testing)
+1. How is [integration testing](https://edgeguides.rubyonrails.org/testing.html#integration-testing) different from unit testing?
+1. Discuss [Controller Testing](https://edgeguides.rubyonrails.org/testing.html#integration-testing)
+1. How to test views: [View Testing](https://edgeguides.rubyonrails.org/testing.html#view-testing)
+
 :lecture_end

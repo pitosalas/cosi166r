@@ -7,21 +7,3 @@ slides: true
 :h3 Logistics
 * Attendance
 
-:slide_title Rails has built-in test plumbing
-
-* Automatically generates stubs for each of the types of tests
-* Built in testing library `minitest`
-* Rails `environments` include development, test and production
-
-:slide_title Model Unit Tests
-
-
-
-
-:slide_bigtitle Data and examples
-
-* :topic_link :mocking
-* :topic_link :testing_data
-* :topic_link :testing_in_rails
-* :topic_link :hands_on_rails_test
-
