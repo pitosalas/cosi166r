@@ -10,5 +10,3 @@ cat: db
 
 :topic_include :ar_db_mechanics
 
-:topic_include :ar_important_methods
-
