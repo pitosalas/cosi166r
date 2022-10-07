@@ -69,5 +69,12 @@ slides: true
 * Combining all the elements above in a way that focuses on speed
 * Minimize time between committing new code and it's delivery to production
 
+:image :bewarebugs
+
+* Interesting from an old archival [letter between Knuth and Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
+* Knuth very famous, Emde Boas, not so much.
+* If you look at the attached paper you also see what I think is one of the very earliest uses of classes. It is on Figure 2: Page 1 of classroom note.
+
+:topic_include :testing_reasons
 
 :lecture_end
