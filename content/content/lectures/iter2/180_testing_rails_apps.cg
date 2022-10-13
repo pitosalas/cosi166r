@@ -7,3 +7,43 @@ slides: true
 :h3 Logistics
 * Attendance
 
+:slide_title 1. Proper branching process: [Gitflow Branching](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+:image :gitflow
+
+* `main` Branch is deployed to production
+* `development` branch is the one we work on
+* `feature` branches are created from `development` and merged back into it
+* Important: feature branches should not last longer than a week or so
+
+:slide_title 2. Automated testing
+
+:image :testing_pyramid
+
+* You will have more tests from the bottom than from the top
+* Tests near the top later as your functionality stabilizes
+* In order to write a test you must **know what is correct behavior**
+* Have a single command which runs all the tests and any individual or subset
+* Depending on your setup you can usually find a UI to do it
+
+:slide_title Test Data
+
+* Called "test fixtures"
+* Are generally created on the fly for each test
+* They should be fast to create and tear down
+* Option 1: Rails Fixtures
+* Option 2: On the fly coding in test setup
+* Option 3: Fixture factory
+* Look at code...
+
+
+
+
+
+* Version control
+* Automated Tests and Suites
+* Continuous Integration
+* Deployment automation
+* Continuous delivery
+
+
