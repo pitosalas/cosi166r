@@ -7,7 +7,7 @@ slides: true
 :h3 Logistics
 * Attendance
 
-:slide_title 1. Proper branching process: [Gitflow Branching](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+:slide_bigtitle 1. Proper branching process: [Gitflow Branching](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 :image :gitflow
 
@@ -16,7 +16,7 @@ slides: true
 * `feature` branches are created from `development` and merged back into it
 * Important: feature branches should not last longer than a week or so
 
-:slide_title 2. Automated testing
+:slide_bigtitle 2. Automated testing
 
 :image :testing_pyramid
 
@@ -26,24 +26,83 @@ slides: true
 * Have a single command which runs all the tests and any individual or subset
 * Depending on your setup you can usually find a UI to do it
 
-:slide_title Test Data
+:slide_bigtitle 3. Test Data
 
 * Called "test fixtures"
 * Are generally created on the fly for each test
 * They should be fast to create and tear down
 * Option 1: Rails Fixtures
 * Option 2: On the fly coding in test setup
-* Option 3: Fixture factory
+* Option 3: Fixture factory (e.g. FactoryBot)
 * Look at code...
 
+:slide_bigtitle 4. Continuous Integration
 
+* Every developer, before making any changes
+* Creates a branch
+* Test merges main to branch
+* Merges branch back to main
 
+:slide_title Base state
 
+* Branch `main` contains consistent and working code
+* Running `rails test` produces no errors
+* Deployed on Heroku
 
-* Version control
-* Automated Tests and Suites
-* Continuous Integration
-* Deployment automation
-* Continuous delivery
+:slide_title Developer starts work on something new
 
+* Create a new branch (`something-new`) and check it out
+* Do a bunch of coding
+* You can safely add and push because you are on your branch
+* Run `rails test` from time to time
+* Merge *from* `main` to your branch (`git merge main`)
+
+:slide_title Developer is done with something new
+
+* `rails test` one last time to make sure it's green
+* Merge *from* `main` to your branch (`git merge main`)
+* Work until problems are fixed (this is the `continuous integration` part)
+* Now move to main branch (`git checkout main`)
+* And merge *from* something-new into `main`
+* If you did it right, there should be no conflicts and tests should pass
+* Which brings you back to base state.
+
+:slide_title Console session
+
+:source_begin :bash
+
+$ git branch fix_bootstrap_setup
+$ git checkout fix_bootstrap_setup
+
+... code ... code ... code
+
+$ rails test
+$ git add --all; git commit -m "removed gem, just using the CDN"; git push
+
+... debug debug debug ...
+
+$ git merge main # brings the latest main branch into my private branch
+
+... handle merge conflicts util rails test is all green again
+
+$ rails test
+$ git add --all; git commit -m "removed gem, just using the CDN"; git push
+$ git merge main # should have no differences
+$ git checkout main
+$ git merge fix_bootstrap_setup # Now pull my branch into main
+$ git add --all; git commit -m "merge branch to main"; git push
+$ rails test # hopefully all tests still pass
+$ git push # push main branch - which triggers ci
+
+:source_end
+
+:slide_bigtitle 5. Continuous Testing
+
+* Whenever `main` branch is pushed to Github
+* Automatically run all the tests and report to developers
+
+:slide_bigtitle 6. Continuous delivery
+
+* Whenever all tests pass
+* Automatically deploy to heroku
 
