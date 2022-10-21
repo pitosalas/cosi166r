@@ -52,7 +52,6 @@ slides: true
 * It usually passes all tests
 * It is not deployed
 
-
 :slide_title Developer starts work on something new
 
 * Create a new branch (`something-new`) and check it out
@@ -134,7 +133,6 @@ $ git push # push development branch - which triggers ci
 * What's happening?
 * Platform As a Service
 * Virtualization and Docker
-* Lots of alternatives
+* Lots of alternatives: render.com, digitalocean.com, fly.io, www.engineyard.com and more
 
-
-
+:lexcture_end
