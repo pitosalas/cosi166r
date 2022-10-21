@@ -48,6 +48,10 @@ slides: true
 * Branch `main` contains consistent and working code
 * Running `rails test` produces no errors
 * Deployed on Heroku
+* Branch `development` contains the latest code from all developers
+* It usually passes all tests
+* It is not deployed
+
 
 :slide_title Developer starts work on something new
 
@@ -55,7 +59,7 @@ slides: true
 * Do a bunch of coding
 * You can safely add and push because you are on your branch
 * Run `rails test` from time to time
-* Merge *from* `main` to your branch (`git merge main`)
+* Merge *from* `development` to your branch (`git merge main`)
 
 :slide_title Developer is done with something new
 
@@ -81,28 +85,56 @@ $ git add --all; git commit -m "removed gem, just using the CDN"; git push
 
 ... debug debug debug ...
 
-$ git merge main # brings the latest main branch into my private branch
+$ git merge development # brings the latest development branch into my private branch
 
 ... handle merge conflicts util rails test is all green again
 
 $ rails test
 $ git add --all; git commit -m "removed gem, just using the CDN"; git push
-$ git merge main # should have no differences
-$ git checkout main
+$ git merge development # should have no differences
+$ git checkout development
 $ git merge fix_bootstrap_setup # Now pull my branch into main
-$ git add --all; git commit -m "merge branch to main"; git push
+$ git add --all; git commit -m "merge branch to development"; git push
 $ rails test # hopefully all tests still pass
-$ git push # push main branch - which triggers ci
+$ git push # push development branch - which triggers ci
 
 :source_end
 
 :slide_bigtitle 5. Continuous Testing
 
-* Whenever `main` branch is pushed to Github
+* Whenever `development` branch is pushed to Github
 * Automatically run all the tests and report to developers
+* Failing tests require developers to engage and fix the bugs asap
+* Do not tolerate failing tests in development branch!
+* Argues for very short lived branches
 
-:slide_bigtitle 6. Continuous delivery
+:slide_bigtitle 6. Continuous deploymenbt
 
-* Whenever all tests pass
-* Automatically deploy to heroku
+* Whenever development is merged into main
+* All tests are run
+* Potentially the latest code is deployed to the server
+* Note it doesn't have to be Heroku
+
+:slide_title Degrees of deployment
+
+* There are degrees of deployment
+* Depending on the audience
+* From private, semi-private, semi-public, public
+* Lower risk -> Higher Risk
+* But more stages mean more complexity
+
+:slide_title Example Stages
+
+* Producton: For paying customers, e.g. www.eroom.com
+* Staging: We think its ready but just one last check. e.g. staging.eroom.com or www.eroom.com/staging
+* QA: Quality assurance team kicks the tires, e.g. www.eroom.com/QA
+
+:slide_title Heroku
+
+* What's happening?
+* Platform As a Service
+* Virtualization and Docker
+* Lots of alternatives
+
+
 

@@ -4,14 +4,24 @@ desc: We jump deep Controllers and MVC.
 cat: rails
 slides: true
 ---
+:h3 Logistics
 
-:h3 Project Status Discussion
-
+* Attendance
 * Where should we be right now with the projects?
+* Let's look at the :topic_link :hw_166_project_stage3 which is due on November 3!
 * You should be meeting face to face at least once a week
-* You should have a working Rails application with a working (but not 100% complete schema), with models, controllers and views, deployed to Heroku with seed data and working.
-* You should distribute the work so each teammate has a separate piece of work to do
+* You should have a working Rails application with a working
+* Wth models, controllers and views, deployed to Heroku with seed data and working.
 * Don't fuss right now with subtle algorithms, focus on the whole system
+
+:slide_title Each Teammate
+
+* Is working on a part of the product
+* Is working on something that they are interested in and are good at
+* They might be pair prodgramming
+* Is able to run locally!!
+* Creates branches, and merges with development branch
+* From time to time you merge development -> main and push to heroku
 
 :slide_bigtitle Controllers and URLs
 
