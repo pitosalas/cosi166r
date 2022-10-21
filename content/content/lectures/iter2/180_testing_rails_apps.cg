@@ -135,4 +135,4 @@ $ git push # push development branch - which triggers ci
 * Virtualization and Docker
 * Lots of alternatives: render.com, digitalocean.com, fly.io, www.engineyard.com and more
 
-:lexcture_end
+:lecture_end
