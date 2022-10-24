@@ -7,9 +7,11 @@ cat: UX
 
 :h3 Logistics and questions
 
+* Attendance
 * Complete loose ends from Tuesday
 
 :topic_include :user_stories
 :topic_include :mockups_prototypes
+:topic_include :ux_flows
 
 :lecture_end
