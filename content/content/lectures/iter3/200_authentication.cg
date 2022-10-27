@@ -4,6 +4,11 @@ desc: How does your app know and validate who is logging in?
 cat: prod
 slides: true
 ---
+:h3 Logistics
+
+* Attendance
+
+
 :topic_include :auth2_concepts
 :topic_include :auth2_mechanics
 :topic_include :auth2_rails
