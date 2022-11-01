@@ -4,7 +4,12 @@ desc: Client and Server interplay for forms and database update
 slides: true
 cat: rails
 ---
-:h2 How Forms Work
+:h2 Logistics
+
+* Attendance
+* Homeworks
+
+:slide_bigtitle How Forms Work
 
 :topic_include :how_forms_view_work
 
