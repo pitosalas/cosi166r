@@ -6,6 +6,11 @@ slides: true
 ---
 :h2 Logistics
 
+* Attendance
+* How is everyone handling Heroku's change?
+* You will need to have a url to hand in for your product
+* It can either be a heroku url, in which case you will have to pay (less than $20)
+* Or it can be the free tier of `flu.io` or `render.com`
 
 :topic_include :pitos_rules_of_ux
 :topic_include :ux_flows
