@@ -7,13 +7,11 @@ slides: true
 :h2 Logistics
 
 * Checkin Questions!
-* Review next week's homework
+* Review deliverables
 
 :topic_include :rest_web_services
 
 :topic_include :rails_api
-
-:topic_include :push_websockets
 
 :topic_include :graphql
 

@@ -1,11 +1,34 @@
 ---
-title: Responsive UI 1
+title: Responsive UI
 desc: Using Ajax with Rails to make websites more responsive
 cat: advanced
 slides: true
 ---
 :h2 Logistics
 * Attendance
+
+:slide_bigtitle Battle Royal
+
+:slide_title Server Side Rendering
+* Recall: Rails Views generate HTML which is response to HTTP GET
+* All rendering is done on the server
+* "Server Side Rendering"
+* Issue: HTML can be very big, so  page refreshes can be very slow
+* But: What if we could only retrieve the little snippet of html that changed?
+* "HTML over the wire"
+
+:slide_title Client Side Rendering
+* Server generates data via an API (e.g. GET list of students as json)
+* Logic in the browser combines that data with html styling to display the page
+* "Client Side Rendering"
+* Benefit: amount of data sent can be small
+* All the HTML already lives inside the client
+* Issue: The client (browser) side code and framework can be complex and hard to test and debug
+
+:slide_title State of Play
+* Battle Royal between the two approaches
+* Different languages, frameworks, and even communities are battling it out.
+* Let's go back to basics...
 
 :topic_include :ajax
 
@@ -21,15 +44,9 @@ slides: true
 * Browser issues an HTTP request
 * Request is issued for remote processing
 * "In background"
-* Server responds by running action, which generates javascript
+* Server responds by running action, which generates javascript (or json)
 * Returned to the browser
-* Browser executes it
-
-:slide_title Javascript processing
-
-* JS is a general purpose language
-* Browser exposes the DOM as `document.`
-* Executing js can access and modify the DOM
+* Browser executes it (or intereprets it)
 
 :slide_title Forms Review
 
@@ -54,8 +71,6 @@ slides: true
   * New Service to support Pusher on a separate Service: [Pusher Service - free push](http://pusher.com)
   * How to use WebSockets on Heroku: [WebSockets on Heroku](https://devcenter.heroku.com/articles/ruby-websockets)
   * Rails Action Cable, [YouTube Demo of Rails 5 Action Cable](https://www.youtube.com/watch?v=n0WUjGkDFS0)
-
-:slide_title Javascript Frameworks & Libraries
 
 :slide_title Single Page Web Applications (SPAs) vs. Traditional Applications
 

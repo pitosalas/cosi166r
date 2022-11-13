@@ -2,7 +2,7 @@
 title: CSS in the wild
 desc: More in depth introduction to CSS and it's role in web based applications.
 cat: rails
-slides: true
+slides: UX
 ---
 
 :h2 Continuing from last class

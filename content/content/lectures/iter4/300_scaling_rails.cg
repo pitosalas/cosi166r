@@ -1,0 +1,13 @@
+---
+title: (Extra) Scaling
+desc: How does architecture change to accommodate scale?
+cat: advanced
+---
+
+:h2 Logistics
+* Attendance
+
+:topic_include :scaling
+:topic_include :tuning_scalability
+
+:lecture_end
