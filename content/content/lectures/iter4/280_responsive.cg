@@ -5,6 +5,7 @@ cat: advanced
 slides: true
 ---
 :h2 Logistics
+* Attendance
 
 :topic_include :ajax
 
@@ -20,7 +21,6 @@ slides: true
 * Browser issues an HTTP request
 * Request is issued for remote processing
 * "In background"
-* `local: false`
 * Server responds by running action, which generates javascript
 * Returned to the browser
 * Browser executes it
@@ -29,22 +29,18 @@ slides: true
 
 * JS is a general purpose language
 * Browser exposes the DOM as `document.`
-* Executing js can access and modify the
+* Executing js can access and modify the DOM
 
 :slide_title Forms Review
 
 * Think about what the submit button does:
   * for **local:true**, it does a post or patch, requesting .html response
-  * for **local:false**, it does a post or patch, requesting .js response
+  * for **local:false**, it does a post or patch, requesting .js response (default)
   * if url was .json, it does a post or patch, requesting .json back
 
 * How to ajaxify a form
   * **Decide precisely what you want to do**
   * Example where we change 'date updated' with ajax
-
-:slide_title Code Review
-
-* Look at [rails ajax_demo](https://github.com/pitosalas/public_samples/tree/master/rails/rails_ajax_demo)
 
 :slide_title Server Push
 
@@ -58,7 +54,6 @@ slides: true
   * New Service to support Pusher on a separate Service: [Pusher Service - free push](http://pusher.com)
   * How to use WebSockets on Heroku: [WebSockets on Heroku](https://devcenter.heroku.com/articles/ruby-websockets)
   * Rails Action Cable, [YouTube Demo of Rails 5 Action Cable](https://www.youtube.com/watch?v=n0WUjGkDFS0)
-* Look at FormsDemo for Pusher
 
 :slide_title Javascript Frameworks & Libraries
 
@@ -97,24 +92,5 @@ slides: true
 1. Make the feature responsive
 1. Rinse and repeat
 
-:slide_title Stimulus.js and how it can help you!
-
-:callout :small, "Beware", "These packages are changing every day, they are complex and tricky to debug"
-
-* Why I give the advice I give
-* Stimulus JS - a Javascript library meant to augment (but not take over) your HTML
-* Create Javascript controllers/actions, listen for changes, update
-* [A basic demo](https://github.com/pitosalas/public_samples/tree/master/rails/stimulus_demo)
-* Hotwire - allows you to divide pages into components, and stream partial page updates using web-sockets
-* Stimulus Reflex - Much less new, alternative to SPAs, allows you to listen to changes streamed via CableReady (web-sockets) and more the application state
-
-:slide_title A friendly warning!
-
-* Do not invest in a framework unless you can list all of its use cases/applicability/disadvantages to your application
-* Lots of different frameworks do the same thing but in different ways, each with different advantages/disadvantages
-
-:slide_title Introducing Web Services
-
-* :topic_link :rest_web_services
 
 :lecture_end
