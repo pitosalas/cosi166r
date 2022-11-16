@@ -7,6 +7,7 @@ cat: advanced
 :h2 Logistics
 * Attendance
 
-**TBD**
+:topic_include :tuning_scalability
+:topic_include :rails_load_testing
 
 :lecture_end
