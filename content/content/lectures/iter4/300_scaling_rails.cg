@@ -8,27 +8,6 @@ slides: true
 
 * Attendance
 
-:slide_title A great final product
-
-* Looks "profesional
-    1. If you saw it "cold" would you start using it?
-    1. Are things aligned? Are fields correctly sized, etc.
-* Has a level of ambition
-    1. It has no visible remainders of the scaffold code
-    1. No ambition: Take the tutorial code and modify fields and forms.
-    1. Ambition: Going beyond the minimum.
-    1. See: :topic_link :good_166_product
-* Follows excellent software engineering practice
-    1. Short lived branches
-    1. Continuous integration and testing
-    1. Automated test suite
-    1. Continuous deployment
-* Works
-    1. Buttons work, menus work, updates work
-    1. Performs well under load (users, records, etc.)
-    1. Doesn't crash
-* :topic_link :good_166_product
-
 :topic_include :scaling
 
 :lecture_end
