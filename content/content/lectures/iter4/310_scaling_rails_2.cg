@@ -6,10 +6,10 @@ slides: true
 ---
 
 :h2 Logistics
+
 * Review CI, CD
 * Discuss Heroku Issues
 * Anyone need an extension?
-
 
 :topic_include :tuning_scalability
 
