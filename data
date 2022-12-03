@@ -1,0 +1,3712 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>
+
+  
+    Computer Science (Undergraduate and Graduate) | Schedule of Classes
+     | Brandeis University
+  
+
+</title>
+
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet"  href="https://www.brandeis.edu/zeta/css/main.css" media="all" />
+<link rel="stylesheet" href="https://www.brandeis.edu/zeta/css/client.css" media="all"/>
+ <link rel="stylesheet" href="https://www.brandeis.edu/schedule-docs/css/stylesheet-mod.css" media="all"/>
+<link href="/schedule-docs/css/stylesheet-print.css" media="print, handheld" rel="stylesheet" type="text/css"/>
+
+
+<script type="text/javascript" src="/schedule-docs/js/main.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19307853-1', 'auto', {'legacyCookieDomain': '.brandeis.edu'});
+  ga('require', 'linkid', 'linkid.js'); 
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+  
+  <div id="header">
+
+    <div id="navImage">
+
+      <div id="navTipTop">
+    <ul>
+      <li><a href="http://www.brandeis.edu/registrar">University Registrar</a></li>
+      <li class="last"><a href="http://www.brandeis.edu">Brandeis Home</a></li>
+    </ul>
+      </div>
+      
+      <div id="navHidden">
+    <a href="http://www.brandeis.edu/" shape="rect"> </a>
+      </div>
+      
+    </div>
+
+</div>
+
+<div id="container">
+<div id="content">
+<div id="contentText">
+
+<!-- a comment -->
+
+<h1>
+
+  <span class="title">
+  
+      Schedule of Classes
+ 
+  </span>
+
+  
+    <span class="subtitle">
+      &mdash;
+      <span class="career">Undergraduate and Graduate</span>
+      /
+      <span class="term">Spring 2019</span>
+      /
+      <span class="subject">Computer Science</span>
+    </span>
+  
+
+</h1>   
+
+<div id="subject-nav">
+<form method="POST" action="classes">
+  <table>
+    <tr>
+      <td>
+
+    <select name="strm" onChange="this.form.submit()">
+      
+            <option value="1231"  >
+              Spring 2023
+            </option>
+      
+            <option value="1223"  >
+              Fall 2022
+            </option>
+      
+            <option value="1222"  >
+              Summer 2022
+            </option>
+      
+            <option value="1221"  >
+              Spring 2022
+            </option>
+      
+            <option value="1213"  >
+              Fall 2021
+            </option>
+      
+            <option value="1212"  >
+              Summer 2021
+            </option>
+      
+            <option value="1211"  >
+              Spring 2021
+            </option>
+      
+            <option value="1203"  >
+              Fall 2020
+            </option>
+      
+            <option value="1202"  >
+              Summer 2020
+            </option>
+      
+            <option value="1201"  >
+              Spring 2020
+            </option>
+      
+            <option value="1193"  >
+              Fall 2019
+            </option>
+      
+            <option value="1192"  >
+              Summer 2019
+            </option>
+      
+            <option value="1191" selected >
+              Spring 2019
+            </option>
+      
+            <option value="1183"  >
+              Fall 2018
+            </option>
+      
+            <option value="1182"  >
+              Summer 2018
+            </option>
+      
+            <option value="1181"  >
+              Spring 2018
+            </option>
+      
+            <option value="1173"  >
+              Fall 2017
+            </option>
+      
+            <option value="1172"  >
+              Summer 2017
+            </option>
+      
+            <option value="1171"  >
+              Spring 2017
+            </option>
+      
+            <option value="1163"  >
+              Fall 2016
+            </option>
+      
+            <option value="1162"  >
+              Summer 2016
+            </option>
+      
+            <option value="1161"  >
+              Spring 2016
+            </option>
+      
+            <option value="1153"  >
+              Fall 2015
+            </option>
+      
+            <option value="1152"  >
+              Summer 2015
+            </option>
+      
+            <option value="1151"  >
+              Spring 2015
+            </option>
+      
+            <option value="1143"  >
+              Fall 2014
+            </option>
+      
+            <option value="1142"  >
+              Summer 2014
+            </option>
+      
+            <option value="1141"  >
+              Spring 2014
+            </option>
+      
+            <option value="1133"  >
+              Fall 2013
+            </option>
+      
+            <option value="1132"  >
+              Summer 2013
+            </option>
+      
+            <option value="1131"  >
+              Spring 2013
+            </option>
+      
+            <option value="1123"  >
+              Fall 2012
+            </option>
+      
+            <option value="1122"  >
+              Summer 2012
+            </option>
+      
+            <option value="1121"  >
+              Spring 2012
+            </option>
+      
+            <option value="1113"  >
+              Fall 2011
+            </option>
+      
+            <option value="1112"  >
+              Summer 2011
+            </option>
+      
+            <option value="1111"  >
+              Spring 2011
+            </option>
+      
+            <option value="1103"  >
+              Fall 2010
+            </option>
+      
+            <option value="1102"  >
+              Summer 2010
+            </option>
+      
+            <option value="1101"  >
+              Spring 2010
+            </option>
+      
+            <option value="1093"  >
+              Fall 2009
+            </option>
+      
+            <option value="1092"  >
+              Summer 2009
+            </option>
+      
+            <option value="1091"  >
+              Spring 2009
+            </option>
+      
+            <option value="1083"  >
+              Fall 2008
+            </option>
+      
+            <option value="1082"  >
+              Summer 2008
+            </option>
+      
+            <option value="1081"  >
+              Spring 2008
+            </option>
+      
+            <option value="1073"  >
+              Fall 2007
+            </option>
+      
+            <option value="1072"  >
+              Summer 2007
+            </option>
+      
+            <option value="1071"  >
+              Spring 2007
+            </option>
+      
+            <option value="1063"  >
+              Fall 2006
+            </option>
+      
+            <option value="1062"  >
+              Summer 2006
+            </option>
+      
+            <option value="1061"  >
+              Spring 2006
+            </option>
+      
+            <option value="1053"  >
+              Fall 2005
+            </option>
+      
+            <option value="1052"  >
+              Summer 2005
+            </option>
+      
+            <option value="1051"  >
+              Spring 2005
+            </option>
+      
+            <option value="1043"  >
+              Fall 2004
+            </option>
+      
+    </select>
+
+    <select name="view" onChange="this.form.submit()">
+      <option value="all" selected >All</option>
+      <option value="UGRD"  >Undergraduate</option>
+      <option value="GRAD"  >Graduate</option>
+    </select>
+
+    <select name="groupSeqNum">
+      <option value="">Jump to a Subject....</option>
+      
+            <option value="100" >
+              African and African American Studies
+            </option>
+      
+            <option value="200" >
+              American Studies
+            </option>
+      
+            <option value="300" >
+              Anthropology
+            </option>
+      
+            <option value="400" >
+              Arabic Language, Literature and Culture
+            </option>
+      
+            <option value="425" >
+              Architectural Studies
+            </option>
+      
+            <option value="450" >
+              Art History
+            </option>
+      
+            <option value="475" >
+              Asian-American Pacific Islander
+            </option>
+      
+            <option value="500" >
+              Biochemistry
+            </option>
+      
+            <option value="510" >
+              Biochemistry and Biophysics
+            </option>
+      
+            <option value="600" >
+              Biological Physics
+            </option>
+      
+            <option value="700" >
+              Biology
+            </option>
+      
+            <option value="850" >
+              Biotechnology
+            </option>
+      
+            <option value="900" >
+              Business
+            </option>
+      
+            <option value="1000" >
+              Chemistry
+            </option>
+      
+            <option value="1100" >
+              Chinese
+            </option>
+      
+            <option value="1200" >
+              Classical Studies
+            </option>
+      
+            <option value="1250" >
+              Comparative Humanities
+            </option>
+      
+            <option value="1300" >
+              Comparative Literature and Culture
+            </option>
+      
+            <option value="1400" selected>
+              Computer Science
+            </option>
+      
+            <option value="9999" >
+              Courses Offered for the First Time
+            </option>
+      
+            <option value="1425" >
+              Creative Writing
+            </option>
+      
+            <option value="1475" >
+              Creativity, the Arts, and Social Transformation
+            </option>
+      
+            <option value="9100" >
+              Difference and Justice in the World
+            </option>
+      
+            <option value="9200" >
+              Diversity, Equity and Inclusion Studies in the U.S.
+            </option>
+      
+            <option value="1500" >
+              East Asian Studies
+            </option>
+      
+            <option value="1600" >
+              Economics
+            </option>
+      
+            <option value="1700" >
+              Education
+            </option>
+      
+            <option value="1800" >
+              English
+            </option>
+      
+            <option value="1850" >
+              English as a Second Language
+            </option>
+      
+            <option value="1900" >
+              Environmental Studies
+            </option>
+      
+            <option value="2000" >
+              European Cultural Studies
+            </option>
+      
+            <option value="2050" >
+              Experiential Learning
+            </option>
+      
+            <option value="2100" >
+              Film, Television and Interactive Media
+            </option>
+      
+            <option value="2300" >
+              Fine Arts
+            </option>
+      
+            <option value="8000" >
+              First Year Seminars (FYS)
+            </option>
+      
+            <option value="2400" >
+              French and Francophone Studies
+            </option>
+      
+            <option value="2450" >
+              Genetic Counseling
+            </option>
+      
+            <option value="2500" >
+              German Studies
+            </option>
+      
+            <option value="2525" >
+              German, Russian, and Asian Languages and Literature
+            </option>
+      
+            <option value="2535" >
+              Global Studies
+            </option>
+      
+            <option value="2550" >
+              Greek
+            </option>
+      
+            <option value="2750" >
+              Health, Wellness and Life Skills
+            </option>
+      
+            <option value="2700" >
+              Health: Science, Society, and Policy
+            </option>
+      
+            <option value="2800" >
+              Hebrew
+            </option>
+      
+            <option value="2900" >
+              Heller School for Social Policy and Management
+            </option>
+      
+            <option value="6600" >
+              Hispanic Studies
+            </option>
+      
+            <option value="3000" >
+              History
+            </option>
+      
+            <option value="3100" >
+              History of Ideas
+            </option>
+      
+            <option value="3200" >
+              Hornstein Jewish Professional Leadership Program
+            </option>
+      
+            <option value="3250" >
+              Humanities
+            </option>
+      
+            <option value="3300" >
+              Independent Interdisciplinary Major
+            </option>
+      
+            <option value="3400" >
+              International and Global Studies
+            </option>
+      
+            <option value="3600" >
+              International Business School
+            </option>
+      
+            <option value="3700" >
+              Internship
+            </option>
+      
+            <option value="3900" >
+              Islamic and Middle Eastern Studies
+            </option>
+      
+            <option value="4000" >
+              Italian Studies
+            </option>
+      
+            <option value="4100" >
+              Japanese
+            </option>
+      
+            <option value="4200" >
+              Journalism
+            </option>
+      
+            <option value="4225" >
+              Justice Brandeis Semester
+            </option>
+      
+            <option value="4235" >
+              Korean
+            </option>
+      
+            <option value="4250" >
+              Latin
+            </option>
+      
+            <option value="4300" >
+              Latin American and Latino Studies
+            </option>
+      
+            <option value="4400" >
+              Legal Studies
+            </option>
+      
+            <option value="4600" >
+              Linguistics
+            </option>
+      
+            <option value="4700" >
+              Mathematics
+            </option>
+      
+            <option value="4800" >
+              Medieval and Renaissance Studies
+            </option>
+      
+            <option value="4900" >
+              Molecular and Cell Biology
+            </option>
+      
+            <option value="5000" >
+              Music
+            </option>
+      
+            <option value="5100" >
+              Near Eastern and Judaic Studies
+            </option>
+      
+            <option value="5200" >
+              Neuroscience
+            </option>
+      
+            <option value="5300" >
+              Peace, Conflict, and Coexistence Studies
+            </option>
+      
+            <option value="5400" >
+              Philosophy
+            </option>
+      
+            <option value="5500" >
+              Physical Education
+            </option>
+      
+            <option value="5600" >
+              Physics
+            </option>
+      
+            <option value="5700" >
+              Politics
+            </option>
+      
+            <option value="5750" >
+              Portuguese
+            </option>
+      
+            <option value="5800" >
+              Postbaccalaureate Premedical Studies
+            </option>
+      
+            <option value="5900" >
+              Psychology
+            </option>
+      
+            <option value="5950" >
+              Quantitative Biology
+            </option>
+      
+            <option value="9000" >
+              Quantitative Reasoning
+            </option>
+      
+            <option value="6000" >
+              Religious Studies
+            </option>
+      
+            <option value="6100" >
+              Romance Studies
+            </option>
+      
+            <option value="6300" >
+              Russian Studies
+            </option>
+      
+            <option value="6325" >
+              Sculpture and Digital Media
+            </option>
+      
+            <option value="6350" >
+              Sexuality and Queer Studies
+            </option>
+      
+            <option value="6400" >
+              Social Justice and Social Policy
+            </option>
+      
+            <option value="6500" >
+              Sociology
+            </option>
+      
+            <option value="6550" >
+              South Asian Studies
+            </option>
+      
+            <option value="6625" >
+              Spanish Language and Literature
+            </option>
+      
+            <option value="6675" >
+              Studio Art
+            </option>
+      
+            <option value="6700" >
+              Theater Arts
+            </option>
+      
+            <option value="7050" >
+              University Writing (COMP and UWS)
+            </option>
+      
+            <option value="6900" >
+              Women's, Gender, and Sexuality Studies
+            </option>
+      
+            <option value="7000" >
+              Yiddish
+            </option>
+      
+    </select>
+
+    <input type="hidden" name="form_submit" value="1" />
+    <input type="submit" value="Go" />
+
+    <a class="notescontent" href="/registrar/schedule/search?strm=1191&view=all">Class Search</a>|<a href="https://apps.brandeis.edu/ceg/index" class="notescontent" target="_blank">Course Evaluation Guide (unet login required)</a>
+
+      </td>
+    </tr>
+    <tr>
+      <td>
+    <input type="checkbox" id="independent_study" name="independent_study" value="1"  />
+    <label for="independent_study">Include Independent Instructional Classes</label>      
+        
+      </td>
+    </tr>
+  </table>
+
+</form>
+</div>
+
+<!-- notes -->
+
+
+
+
+
+<!-- classes, by category -->
+
+
+
+  <table width="100%" id="classes-list" cellspacing="0">
+    
+      <tr>
+        <td class="header headerfirst" colspan="9">
+      <h2>(1-99) Primarily for Undergraduate Students</h2>
+        </td>
+      </tr>
+      
+       <tr>
+    
+    <th class="coursenum">Course #</th>
+    <th class="coursetitle">Course Title</th>
+    <th class="time">Time<br />Location</th>
+    <th class="enrollment">Enrl / Lim
+
+    
+
+      
+	/ Wait
+      
+
+    
+
+    </th>
+    <th class="instructors">Instructor(s)</th>
+    
+    
+      <th class="books">View Books</th>
+    
+    
+  </tr>
+    
+        <tr 
+  class="rowfirst"
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 12B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=012337&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            12B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Advanced Programming Techniques</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+            Open to graduate students in the post-baccalaureate computer science program.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  10:00 AM&ndash;10:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 112
+              
+              
+            
+
+            
+              <hr />
+            
+          
+            
+              
+                  
+
+          
+
+              M
+
+              
+                
+                  6:30 PM&ndash;9:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 112
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          96 /
+          110
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=4b4fcfe64c1c153c08a131c97077c1726072e6c9" target="_blank">
+    DiLillo, Antonella
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=12B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 12B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=012337&strm=1191&class_section=2', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            12B
+            2
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Advanced Programming Techniques</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+            Open to graduate students in the post-baccalaureate computer science program.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  12:00 PM&ndash;12:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 121
+              
+              
+            
+
+            
+              <hr />
+            
+          
+            
+              
+                  
+
+          
+
+              M
+
+              
+                
+                  6:30 PM&ndash;9:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 123
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          87 /
+          110
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=69957fcf6528db656418863916878ea0e4046b09" target="_blank">
+    Salas, Pito
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=12B&amp;sect-1=2'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 21A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001722&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            21A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Data Structures and the Fundamentals of Computing</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  1:00 PM&ndash;1:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Olin-Sang Amer Civ Ctr101
+              
+              
+            
+
+            
+              <hr />
+            
+          
+            
+              
+                  
+
+          
+
+              W
+
+              
+                
+                  6:30 PM&ndash;9:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 112
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          94 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=4b4fcfe64c1c153c08a131c97077c1726072e6c9" target="_blank">
+    DiLillo, Antonella
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=21A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+      
+      <tr><td>&nbsp;</td></tr>
+    
+      <tr>
+        <td class="header" colspan="9">
+      <h2>(100-199) For Both Undergraduate and Graduate Students</h2>
+        </td>
+      </tr>
+      
+       <tr>
+    
+    <th class="coursenum">Course #</th>
+    <th class="coursetitle">Course Title</th>
+    <th class="time">Time<br />Location</th>
+    <th class="enrollment">Enrl / Lim
+
+    
+
+      
+	/ Wait
+      
+
+    
+
+    </th>
+    <th class="instructors">Instructor(s)</th>
+    
+    
+      <th class="books">View Books</th>
+    
+    
+  </tr>
+    
+        <tr 
+  class="rowfirst"
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 101A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001761&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            101A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Fundamentals of Artificial Intelligence</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W
+
+              
+                
+                  2:00 PM&ndash;3:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 124
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          42 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=995afce318c16f1be5462adc7ea7b515b4218d61" target="_blank">
+    Pollack, Jordan
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=101A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 105B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=013586&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            105B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Software Engineering for Scalability</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+            Instructor's Signature Required.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,Th
+
+              
+                
+                  3:30 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 103
+              
+              
+            
+
+            
+              <hr />
+            
+          
+            
+              
+                  
+
+          
+
+              W
+
+              
+                
+                  5:00 PM&ndash;6:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 103
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+              <br />Consent Req.
+              
+            </span>
+            
+      <br />
+          12 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=69957fcf6528db656418863916878ea0e4046b09" target="_blank">
+    Salas, Pito
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=105B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 114B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001649&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            114B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Fundamentals of Computational Linguistics</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+            Optional fourth hour of lab to be determined at the start of classes.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,F
+
+              
+                
+                  11:00 AM&ndash;12:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Lown Cntr for JudaicStudies002
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          48 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=dbbe2e6922a901a7151b3d83b6618450867207ae" target="_blank">
+    Pustejovsky, James
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=114B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 119A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=014120&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            119A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Autonomous Robotics Lab</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T
+
+              
+                
+                  9:00 AM&ndash;11:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 006
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          8 /
+          15
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=69957fcf6528db656418863916878ea0e4046b09" target="_blank">
+    Salas, Pito
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=119A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 121B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001725&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            121B
+            1
+          </a>
+          
+              <br />
+              <a href="https://moodle2.brandeis.edu/syllabus/public/18b0b804fe43eba87bbab7db1943fee0.pdf" target="_blank">Syllabus</a>
+          
+        </td>
+
+    <td>
+          <strong>Structure and Interpretation of Computer Programs</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+            See Course Catalog for Special Notes.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  10:00 AM&ndash;10:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Olin-Sang Amer Civ Ctr101
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          85 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=ea30cbe920c0b5d91ca520aa10359d76b79027dc" target="_blank">
+    Mairson, Harry
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=121B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 127B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001656&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            127B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Database Management Systems</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  12:00 PM&ndash;12:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 123
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          80 /
+          150
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=99e43aa9c6029a248b9725d7ed83349acba961b7" target="_blank">
+    Marcus, Ryan C
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=127B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 129A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=013507&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            129A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Introduction to Big Data Analysis</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,F
+
+              
+                
+                  12:30 PM&ndash;1:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 124
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          21 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=4f5337cde5f2dc9d31cef26aae29e0ab243723f1" target="_blank">
+    Liu, Hongfu
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=129A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 130A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001743&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            130A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Introduction to the Theory of Computation</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W
+
+              
+                
+                  2:00 PM&ndash;3:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Abelson-Bass-Yalem Physics 131
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          85 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=1ee15990152ca1300fccd091f365b7fd3203edd7" target="_blank">
+    Storer, Jim
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=130A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 132A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=013394&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            132A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Information Retrieval</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W
+
+              
+                
+                  3:30 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Volen Nat'l Ctr for Complex106
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          25 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=a3e7423ebd9c446a376ae1d164465083b86f8b48" target="_blank">
+    Anick, Peter G
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=132A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 137B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=013168&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            137B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Information Extraction</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,F
+
+              
+                
+                  11:00 AM&ndash;12:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Schwartz Hall 103
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          18 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=6e2ed7e628c80b6f108c69bf79ca7a1e543384bc" target="_blank">
+    Wellner, Benjamin R.
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=137B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 138A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=012691&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            138A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Computational Linguistics Second Year Seminar</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for Special Notes.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              F
+
+              
+                
+                  2:00 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Volen Nat'l Ctr for Complex106
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          14 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=65b5a95b9ab13144e99d88a7e7b5caad2a596bc3" target="_blank">
+    Plaster, Keith
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=138A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 139B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=014177&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            139B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Technology and the Learning Sciences</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,Th
+
+              
+                
+                  2:00 PM&ndash;3:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Goldsmith Math 226
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          8 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=4a09ce0d1a4b429db8f07e9e0210e5e2e7ab094b" target="_blank">
+    Alterman, Rick
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=139B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 140B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=013393&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            140B
+            1
+          </a>
+          
+              <br />
+              <a href="https://moodle2.brandeis.edu/syllabus/public/ed9d0a63873a8fb9c8a3d3e37753b2d0.pdf" target="_blank">Syllabus</a>
+          
+        </td>
+
+    <td>
+          <strong>Natural Language Annotation for Machine Learning</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,F
+
+              
+                
+                  12:30 PM&ndash;1:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Rosenstiel Basic Med118
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          31 /
+          35
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=cc59be08d0a43aa426bd6098a41c0c1171822755" target="_blank">
+    Xue, Nianwen
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=140B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 146A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=001662&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            146A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Principles of Computer System Design</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,F
+
+              
+                
+                  11:00 AM&ndash;12:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Goldsmith300
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          6 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=a42c20615bb4e276aa13003ed1634c7c55a5fc67" target="_blank">
+    Shrira, Liuba
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=146A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 149B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=014270&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            149B
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Practical Machine Learning with Big Data</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W
+
+              
+                
+                  3:30 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 121
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          76 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=e02e9cdcd77a4ce11e620139c379f43742682961" target="_blank">
+    Hong, Pengyu
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=149B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 164A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=011472&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            164A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Introduction to 3-D Animation</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  11:00 AM&ndash;11:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Olin-Sang Amer Civ Ctr101
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          153 /
+          200
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=cf77fc02c3092393af1c05ae7032ca15f62851ca" target="_blank">
+    Hickey, Timothy J
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=164A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 164A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=011472&strm=1191&class_section=2DL', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            164A
+            2DL
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Introduction to 3-D Animation</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+            Attendance by Livestream only.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  11:00 AM&ndash;11:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          48 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=cf77fc02c3092393af1c05ae7032ca15f62851ca" target="_blank">
+    Hickey, Timothy J
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=164A&amp;sect-1=2DL'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 177A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=012583&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            177A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Scientific Data Processing in Matlab</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,Th
+
+              
+                
+                  2:00 PM&ndash;3:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Rosenstiel Basic Med118
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          40 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=01595c048105f2f0a920047cbd5b6588c6806f1b" target="_blank">
+    Garber, Solomon Eisenberg
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=177A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+      
+      <tr><td>&nbsp;</td></tr>
+    
+      <tr>
+        <td class="header" colspan="9">
+      <h2>(200 and above) Primarily for Graduate Students</h2>
+        </td>
+      </tr>
+      
+       <tr>
+    
+    <th class="coursenum">Course #</th>
+    <th class="coursetitle">Course Title</th>
+    <th class="time">Time<br />Location</th>
+    <th class="enrollment">Enrl / Lim
+
+    
+
+      
+	/ Wait
+      
+
+    
+
+    </th>
+    <th class="instructors">Instructor(s)</th>
+    
+    
+      <th class="books">View Books</th>
+    
+    
+  </tr>
+    
+        <tr 
+  class="rowfirst"
+ >
+    
+
+    <td>
+          <a class="def" name="COSI 217B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=012159&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            COSI
+            217B
+            1
+          </a>
+          
+              <br />
+              <a href="https://moodle2.brandeis.edu/syllabus/public/a0faae7cc74d6cce0a5171d6d9db26fd.pdf" target="_blank">Syllabus</a>
+          
+        </td>
+
+    <td>
+          <strong>Natural Language Processing Systems</strong>
+          <br />
+
+         
+
+          
+            Topic for spring 2019: Meaning Representation and Parsing.<br />
+          
+            Prerequisites for spring 2019: COSI 114b, 134a, 137b or instructor consent. This is a seminar-style research-oriented course where students will work on a project, and report their results in the format of a typical research paper presented at major conferences such as ACL, NAACL, and EMNLP. The main topics this year will be meaning representation and parsing. Meaning representation comes in different flavors, and we will examine the different schools of thought on meaning representation and their theoretical underpinnings. In particular, we will spend a significant part of the course on Abstract Meaning Representation, a graph-based meaning representation that has gained traction in the field of NLP in recent years. We will discuss how to extend AMR to different languages and work towards a Universal Meaning Representation that applies to a diverse set of languages and supports both lexical and logical inference. We will also devote a substantial amount of time going over computational approaches to AMR/UMR parsing, which are rapidly evolving. It is expected that students will develop their own ideas on meaning representation and parsing as they learn about existing approaches and work towards a term project that could result in a conference submission.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T
+
+              
+                
+                  2:00 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Abelson-Bass-Yalem Physics 229
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          6 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=cc59be08d0a43aa426bd6098a41c0c1171822755" target="_blank">
+    Xue, Nianwen
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=COSI&course-1=217B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+      
+      <tr><td>&nbsp;</td></tr>
+    
+      <tr>
+        <td class="header" colspan="9">
+      <h2>Cross-Listed in Computer Science</h2>
+        </td>
+      </tr>
+      
+       <tr>
+    
+    <th class="coursenum">Course #</th>
+    <th class="coursetitle">Course Title</th>
+    <th class="time">Time<br />Location</th>
+    <th class="enrollment">Enrl / Lim
+
+    
+
+      
+	/ Wait
+      
+
+    
+
+    </th>
+    <th class="instructors">Instructor(s)</th>
+    
+    
+      <th class="books">View Books</th>
+    
+    
+  </tr>
+    
+        <tr 
+  class="rowfirst"
+ >
+    
+
+    <td>
+          <a class="def" name="ANTH 138A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=000347&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            ANTH
+            138A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Digital Cultures</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Social Science [ ss ]">
+            ss
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for Special Notes.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              Th
+
+              
+                
+                  2:00 PM&ndash;4:50 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Golding Judaica Center110
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          38 /
+          50
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=2b3cfa7bb20bf61744a9440b33739210acdf21d0" target="_blank">
+    Alvarez Astacio, Patricia
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=ANTH&course-1=138A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="rowodd"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="LING 130A"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=005089&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            LING
+            130A
+            1
+          </a>
+          
+        </td>
+
+    <td>
+          <strong>Formal Semantics: Truth, Meaning, and Language</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Humanities [ hum ]">
+            hum
+          </span>       
+            
+          <span class="requirement" title="Quantitative Reasoning Requirement [ qr ]">
+            qr
+          </span>       
+            
+          <span class="requirement" title="School of Social Science [ ss ]">
+            ss
+          </span>       
+            
+            ]<br />
+          
+
+          
+            See Course Catalog for prerequisites.<br />
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              T,Th
+
+              
+                
+                  2:00 PM&ndash;3:20 PM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Gerstenzang 121
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          45 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=3910d55813d1ab5d82f569d8e7923afa2ac792f5" target="_blank">
+    Malamud, Sophia Alexandra
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=LING&course-1=130A&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+        <tr 
+  
+    class="row"
+  
+ >
+    
+
+    <td>
+          <a class="def" name="PHIL 106B"
+         a href="javascript:popUp('course?acad_year=2019&crse_id=006532&strm=1191&class_section=1', 'catwin', 'width=400,height=200,scrollbars=1');">
+            PHIL
+            106B
+            1
+          </a>
+          
+              <br />
+              <a href="https://moodle2.brandeis.edu/syllabus/public/ac61f44a9c9a7f0a49fefd6fcb2a0597.pdf" target="_blank">Syllabus</a>
+          
+        </td>
+
+    <td>
+          <strong>Mathematical Logic</strong>
+          <br />
+
+         
+            [
+            
+          <span class="requirement" title="School of Humanities [ hum ]">
+            hum
+          </span>       
+            
+          <span class="requirement" title="School of Science [ sn ]">
+            sn
+          </span>       
+            
+            ]<br />
+          
+
+          
+
+      
+
+        </td>
+
+    <td>
+
+         
+
+          
+            
+              
+                  
+
+          
+
+              M,W,Th
+
+              
+                
+                  9:00 AM&ndash;9:50 AM
+                
+                
+              
+            
+
+            
+              
+                
+                <br />
+                Lown Cntr for JudaicStudies002
+              
+              
+            
+
+            
+          
+        </td>
+
+    <td>
+
+          
+            <span class="open">
+              Open
+              
+            </span>
+            
+      <br />
+          40 /
+          999
+      
+        
+              / 0
+        
+      
+        </td>
+
+    <td>
+          
+            
+          
+  <a href="http://www.brandeis.edu/facguide/person.html?emplid=53ffcb86b12acd11063fafc7ee5887ef65b550d3" target="_blank">
+    Marusic, Jennifer
+  </a>
+  
+
+            
+          
+        </td>
+        <td>
+<a target="_blank" href='https://www.bkstr.com/webApp/discoverView?bookstore_id-1=1391&term_id-1=1191&div-1=&dept-1=PHIL&course-1=106B&amp;sect-1=1'>View Books</a>
+</td>
+      </tr>
+    
+      
+      <tr><td>&nbsp;</td></tr>
+    
+  </table>
+
+
+
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!-- a comment -->
